@@ -1,6 +1,10 @@
-<nav class="w-100">
-  <h1 class="gray tracked-mega ttu fw5">Susie MacMurray</h1>
-  {% for title in site.data.navTitles %}
-    <a href="{{title.url}}"><p>{{title.text}}</p></a>
-  {% endfor %}
+<nav class="ma2 mh4-ns flex justify-between">
+  <a class="no-underline gray" href="/"><h1 class="tracked-mega ttu fw5 dib">Susie MacMurray</h1><a>
+
+  <ul class="dib">
+    {% for title in site.data.navTitles %}
+      <a class="dib no-underline gray mh2" href="{{title.url}}"><p>{{title.text}}</p></a>
+    {% endfor %}
+  </ul>
+
 </nav>
