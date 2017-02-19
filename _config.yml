@@ -32,3 +32,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - _css
+  - package.json
+  - postcss-config.js
