@@ -7,7 +7,7 @@
 
   <ul class="dib">
     {% for title in site.data.navTitles %}
-      <a class="dib no-underline fw4 {% if page.title == title.text %}{{ 'black' }}{% else %}{{ 'gray' }}{% endif %} mh2" href="{{title.url}}"><p>{{title.text}}</p></a>
+      <a class="dib no-underline fw4 {% if page.title == title.text %}{{ 'black' }}{% else %}{{ 'gray' }}{% endif %} mh2" href="{{ site.url }}{{ title.url }}"><p>{{title.text}}</p></a>
     {% endfor %}
   </ul>
 
