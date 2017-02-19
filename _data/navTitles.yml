@@ -1,5 +1,8 @@
 - text: about
   url: /about
 
+- text: cv
+  url: /cv
+
 - text: contact
   url: /contact
