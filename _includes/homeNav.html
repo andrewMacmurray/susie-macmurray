@@ -6,7 +6,7 @@
 
   <ul class="dib">
     {% for title in site.data.navTitles %}
-      <a class="dib no-underline fw4 white mh2" href="{{title.url}}"><p>{{title.text}}</p></a>
+      <a class="dib no-underline fw4 white mh2" href="{{ site.url }}{{title.url}}"><p>{{title.text}}</p></a>
     {% endfor %}
   </ul>
 
