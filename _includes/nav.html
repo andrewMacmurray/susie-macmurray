@@ -1,12 +1,6 @@
-{% if page.title == site.title %}
-  {% assign textColor = " white" %}
-{% else %}
-  {% assign textColor = " gray" %}
-{% endif %}
+<nav class="mh3 mh4-ns flex justify-between z-3">
 
-<nav class="mh4-ns flex justify-between z-3">
-
-  <a class="{{ no-underline | append: textColor }}" href="{{ site.url }}">
+  <a logo class="no-underline transition" href="{{ site.url }}">
     <h1 class="tracked-mega ttu fw5 dib">Susie MacMurray</h1>
   </a>
 
@@ -21,7 +15,7 @@
         {% assign menuColor = " gray" %}
       {% endif %}
 
-      <a class="{{ 'dib no-underline fw4 mh2' | append: menuColor }}"
+      <a menu-item class="{{ 'dib no-underline fw4 mh2 transition' | append: menuColor }}"
          href="{{ site.url }}{{ title.url }}">
         <p>{{title.text}}</p>
       </a>

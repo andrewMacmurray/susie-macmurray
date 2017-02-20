@@ -33,4 +33,6 @@ exclude:
   - package.json
   - node_modules
   - _css
-  - postcss-config.js
+  - _js
+  - .babelrc
+  - webpack.config.js
