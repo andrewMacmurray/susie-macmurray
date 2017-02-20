@@ -19,3 +19,11 @@ a {
 ul {
   padding-left: 0;
 }
+
+.active {
+  opacity: 1;
+}
+
+.transition {
+  transition: 0.4s ease;
+}
