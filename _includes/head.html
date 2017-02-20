@@ -13,6 +13,7 @@
 <head>
   <meta charset="utf-8">
   <title>{% if page.title != site.title %}{{ appendedTitleText }}{% else %}{{ site.title }}{% endif %}</title>
-  <link rel="stylesheet" href="/style.min.css"/>
+  <link rel="stylesheet" href="{{ site.url }}/style.min.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
   <link rel="canonical" href="{{ pageUrl }}">
 </head>
