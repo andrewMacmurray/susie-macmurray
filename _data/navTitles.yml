@@ -1,6 +1,9 @@
 - text: about
   url: /about
 
+- text: images
+  url: /images
+
 - text: cv
   url: /cv
 
