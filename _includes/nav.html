@@ -1,13 +1,31 @@
-<!-- TODO: abstract out nav to fit homepage and other pages -->
+{% if page.title == site.title %}
+  {% assign textColor = " white" %}
+{% else %}
+  {% assign textColor = " gray" %}
+{% endif %}
+
 <nav class="mh4-ns flex justify-between z-3">
 
-  <a class="no-underline gray" href="{{ site.url }}">
+  <a class="{{ no-underline | append: textColor }}" href="{{ site.url }}">
     <h1 class="tracked-mega ttu fw5 dib">Susie MacMurray</h1>
   </a>
 
   <ul class="dib">
     {% for title in site.data.navTitles %}
-      <a class="dib no-underline fw4 {% if page.title == title.text %}{{ 'black' }}{% else %}{{ 'gray' }}{% endif %} mh2" href="{{ site.url }}{{ title.url }}"><p>{{title.text}}</p></a>
+
+      {% if page.title == site.title %}
+        {% assign menuColor = " white" %}
+      {% elsif page.title == title.text %}
+        {% assign menuColor = " black" %}
+      {% else %}
+        {% assign menuColor = " gray" %}
+      {% endif %}
+
+      <a class="{{ 'dib no-underline fw4 mh2' | append: menuColor }}"
+         href="{{ site.url }}{{ title.url }}">
+        <p>{{title.text}}</p>
+      </a>
+
     {% endfor %}
   </ul>
 

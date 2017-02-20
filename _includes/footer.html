@@ -1,5 +1,11 @@
+{% if page.title == site.title %}
+  {% assign textColor = " white" %}
+{% else %}
+  {% assign textColor = " gray" %}
+{% endif %}
+
 <footer class="w-100 pa3 pa4-m flex justify-between relative z-3">
-  <p class='ma0 f6 fw4'>© Susie MacMurray 2017</p>
+  <p class="{{ 'ma0 f6 fw4' | append: textColor }}">© Susie MacMurray 2017</p>
 
   <div class='flex'>
     <a href="https://www.facebook.com/susie.macmurray.3" target="_blank">
