@@ -20,6 +20,14 @@ ul {
   padding-left: 0;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
+:focus {
+  outline: none;
+}
+
 .active {
   opacity: 1;
 }
