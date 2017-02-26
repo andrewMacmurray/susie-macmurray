@@ -1,14 +1,6 @@
 ---
-layout: images
+layout: imageGrid
 title: images
 permalink: /images/
+dataSource: "categories"
 ---
-
-{% for category in site.data.categories %}
-  <a href="{{ site.url}}/images/{{ category.url }}">
-    <div class="w-50 w-33-ns fl ph2">
-      <div class="w-100 h5 bg-center cover" style="background-image: url({{ site.url }}{{ category.thumbnail }})"></div>
-      <p class="fw4">{{ category.title }}</p>
-    </div>
-  </a>
-{% endfor %}
