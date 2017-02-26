@@ -1,23 +1,23 @@
-- title: recent work
-  url: /sculpture
-  thumbnail: /img/pandora/pandora_02.jpg
+- title: recent works
+  url: recent-works
+  thumbnail: /img/sculptures/strange-fruit/strange-fruit_01.jpg
 
-- title: sculpture
-  url: /sculpture
-  thumbnail: /img/pandora/pandora_03.jpg
+- title: sculptures
+  url: sculptures
+  thumbnail: /img/sculptures/pandora/pandora_02.jpg
 
-- title: drawing
-  url: /sculpture
-  thumbnail: /img/cloud/cloud_02.jpg
+- title: drawings
+  url: drawings
+  thumbnail: /img/drawings/trench-map/trench-map_02.jpg
 
 - title: site specific installations
-  url: /sculpture
-  thumbnail: /img/cloud/cloud_03.jpg
-
-- title: small works
-  url: /sculpture
-  thumbnail: /img/cloud/cloud_04.jpg
+  url: site-specific-installations
+  thumbnail: /img/site-specific-installations/cloud/cloud_03.jpg
 
 - title: garment sculptures
-  url: /sculpture
-  thumbnail: /img/cloud/cloud_05.jpg
+  url: garment-sculptures
+  thumbnail: /img/garment-sculptures/medusa/medusa_04.jpg
+
+- title: small works
+  url: small-works
+  thumbnail: /img/small-works/heartbreak/heartbreak_01.jpg

@@ -7,7 +7,6 @@
 @import 'tachyons-custom/src/_borders';
 @import 'tachyons-custom/src/_border-colors';
 @import 'tachyons-custom/src/_border-radius';
-@import 'tachyons-custom/src/_border-style';
 @import 'tachyons-custom/src/_border-widths';
 @import 'tachyons-custom/src/_box-shadow';
 @import 'tachyons-custom/src/_code';
@@ -19,7 +18,6 @@
 @import 'tachyons-custom/src/_font-family';
 @import 'tachyons-custom/src/_font-style';
 @import 'tachyons-custom/src/_font-weight';
-@import 'tachyons-custom/src/_forms';
 @import 'tachyons-custom/src/_heights';
 @import 'tachyons-custom/src/_letter-spacing';
 @import 'tachyons-custom/src/_line-height';
@@ -48,4 +46,5 @@
 
 /* custom variables */
 @import './_variables';
+@import './_aspect-ratios';
 @import './_custom';

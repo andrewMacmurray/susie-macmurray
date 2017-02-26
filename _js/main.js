@@ -1,4 +1,5 @@
 import '../_css/index.css'
+import './slider.js'
 
 const $ = {}
 
