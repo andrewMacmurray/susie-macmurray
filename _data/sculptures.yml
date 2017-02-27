@@ -1,8 +1,28 @@
 - title: strange fruit
   thumbnail: /img/sculptures/strange-fruit/strange-fruit_01.jpg
+  description: Strange Fruit 2017, 70cm x 140cm x 28cm, reclaimed military barbed wire, silk velvet
+  images:
+    - url: /sculptures/strange-fruit/strange-fruit_01.jpg
+      portrait: true
 
 - title: pandora
   thumbnail: /img/sculptures/pandora/pandora_03.jpg
+  description: LED lightbox, clearcast resin 50. cal browning bullets 2016
+  images:
+    - url: /sculptures/pandora/pandora_01.jpg
+      portrait: true
+
+    - url: /sculptures/pandora/pandora_02.jpg
+
+    - url: /sculptures/pandora/pandora_03.jpg
+
+    - url: /sculptures/pandora/pandora_04.jpg
+      portrait: true
+
+    - url: /sculptures/pandora/pandora_05.jpg
+      portrait: true
+
+    - url: /sculptures/pandora/pandora_06.jpg
 
 - title: hold the line
   thumbnail: /img/sculptures/hold-the-line/hold-the-line_02.jpg

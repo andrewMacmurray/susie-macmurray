@@ -2,6 +2,48 @@
 layout: default
 ---
 
-<div class="w-50 center">
-  {{ content }}
+<div class="mw7 center">
+  <h2 class="fw4 mt0 mb4 f5">{{ page.title }}</h2>
+  <div class="relative">
+    <div class="absolute w-25 w-100-ns h-75 top-0 left-0 z-3 pointer" id="previous"></div>
+    <div class="absolute w-25 w-100-ns h-75 top-0 right-0 z-3 pointer" id="next"></div>
+    <div class="slider">
+      {% for project in site.data[page.dataSource] %}
+        {% if project.title == page.title %}
+          {% for img in project.images %}
+
+            <div>
+              <div class="aspect-ratio aspect-ratio--16x9-m aspect-ratio--4x3">
+                <div imgdata="{{ site.url}}/img/{{ img.url }}" class="aspect-ratio--object bg-center {% if img.portrait == true %}{{ 'contain' }}{% else %}{{ 'cover' }}{% endif %}" style="background-image: url({{ site.url }}/img/{{ img.url }})"></div>
+              </div>
+            </div>
+
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="captions">
+    {% for project in site.data[page.dataSource] %}
+      {% if project.title == page.title %}
+        {% for img in project.images %}
+
+          <p>{{ img.caption }}</p>
+
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  {% for project in site.data[page.dataSource] %}
+    {% if project.title == page.title %}
+      {% if project.description %}
+
+        <p>{{ project.description }}</p>
+
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+
 </div>
