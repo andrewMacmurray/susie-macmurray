@@ -1,25 +1,23 @@
 var slider = $('.slider')
-var sliderNav = $('.slider-nav')
+var captions = $('.captions')
 
 slider.slick({
   fade: true,
   waitForAnimate: false,
   prevArrow: '#previous',
-  nextArrow: '#next'
-  // dots: true,
-  // customPaging: function (slider, i) {
-  //   const imgUrl = $(slider.$slides[i]).find('[imgdata]')[0].getAttribute('imgdata')
-  //   return `
-  //     <div class="w5 h5">
-  //       <div class="w-100 h-100 bg-center cover" style="background-image: url(${imgUrl})"
-  //     </div>
-  //   `
-  // }
+  nextArrow: '#next',
+  asNavFor: '.captions',
+  dots: true,
+  customPaging: function (slider, i) {
+    const imgUrl = $(slider.$slides[i]).find('[imgdata]')[0].getAttribute('imgdata')
+    return `
+      <div class="w2 h2 w3-ns h3-ns pointer mt4">
+        <div class="w-100 h-100 bg-center contain" style="background-image: url(${imgUrl})"
+      </div>
+    `
+  }
 })
 
-sliderNav.slick({
-  slidesToShow: 5,
-  arrows: true,
-  fade: true,
-  asNavFor: '.slider'
+captions.slick({
+  fade: true
 })

@@ -47,4 +47,5 @@
 /* custom variables */
 @import './_variables';
 @import './_aspect-ratios';
+@import './_slick-overrides';
 @import './_custom';

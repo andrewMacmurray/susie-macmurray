@@ -1,0 +1,19 @@
+.slick-dots {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.slick-dots li {
+  transition: 0.3s ease;
+  opacity: 0.3;
+  display: inline-block;
+  margin: 0 var(--spacing-extra-small);
+}
+
+.slick-dots .slick-active {
+  opacity: 1;
+}
+
+.captions button {
+  display: none!important;
+}
