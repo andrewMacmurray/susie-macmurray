@@ -39,7 +39,9 @@ layout: default
   {% for project in site.data[page.dataSource] %}
     {% if project.title == page.title %}
       {% if project.description %}
+
         <p>{{ project.description }}</p>
+
       {% endif %}
     {% endif %}
   {% endfor %}
