@@ -1,6 +1,6 @@
 .slick-dots {
   text-align: center;
-  margin: 0 auto;
+  margin: var(--spacing-large) auto 0;
 }
 
 .slick-dots li {
@@ -12,8 +12,4 @@
 
 .slick-dots .slick-active {
   opacity: 1;
-}
-
-.captions button {
-  display: none!important;
 }
