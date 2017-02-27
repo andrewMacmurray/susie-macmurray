@@ -3,6 +3,14 @@
 
 - title: pandora
   thumbnail: /img/sculptures/pandora/pandora_03.jpg
+  description: LED lightbox, clearcast resin 50. cal browning bullets 2016
+  images:
+    - url: /sculptures/pandora/pandora_01.jpg
+      portrait: true
+
+    - url: /sculptures/pandora/pandora_02.jpg
+
+    - url: /sculptures/pandora/pandora_03.jpg
 
 - title: hold the line
   thumbnail: /img/sculptures/hold-the-line/hold-the-line_02.jpg
