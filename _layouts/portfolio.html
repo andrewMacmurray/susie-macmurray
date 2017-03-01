@@ -40,7 +40,10 @@ layout: default
     {% if project.title == page.title %}
       {% if project.description %}
 
-        <p>{{ project.description }}</p>
+        {% for x in project.description %}
+          <span class="f6 fw4">{{ x }}</span>
+          </br>
+        {% endfor %}
 
       {% endif %}
     {% endif %}
