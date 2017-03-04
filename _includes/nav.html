@@ -4,7 +4,7 @@
     <h1 class="tracked-mega ttu fw5 dib">Susie MacMurray</h1>
   </a>
 
-  <ul class="dib">
+  <ul class="tr dib">
     {% for title in site.data.nav-titles %}
 
       {% if page.title == site.title %}
@@ -17,7 +17,7 @@
 
       <a menu-item class="{{ 'dib no-underline fw4 mh2 transition' | append: menuColor }}"
          href="{{ site.url }}{{ title.url }}">
-        <p>{{title.text}}</p>
+        <p class="mb0">{{title.text}}</p>
       </a>
 
     {% endfor %}

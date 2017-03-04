@@ -9,6 +9,8 @@
     - url: /sculptures/strange-fruit/strange-fruit_01.jpg
       portrait: true
 
+
+
 - title: pandora
   thumbnail: /img/sculptures/pandora/pandora_03.jpg
   description:
@@ -26,6 +28,13 @@
       portrait: true
     - url: /sculptures/pandora/pandora_06.jpg
 
+
+- title: boat people
+  thumbnail: /img/sculptures/boat-people/boat-people_01.jpg
+  images:
+    - url: /sculptures/boat-people/boat-people_01.jpg
+
+
 - title: hold the line
   thumbnail: /img/sculptures/hold-the-line/hold-the-line_02.jpg
   description:
@@ -39,11 +48,111 @@
       portrait: true
     - url: /sculptures/hold-the-line/hold-the-line_03.jpg
 
+
+
 - title: palisade
   thumbnail: /img/sculptures/palisade/palisade_03.jpg
+  images:
+    - url: /sculptures/palisade/palisade_01.jpg
+    - url: /sculptures/palisade/palisade_02.jpg
+    - url: /sculptures/palisade/palisade_03.jpg
+    - url: /sculptures/palisade/palisade_04.jpg
+    - url: /sculptures/palisade/palisade_05.jpg
+    - url: /sculptures/palisade/palisade_06.jpg
 
-- title: medusa
-  thumbnail: /img/garment-sculptures/medusa/medusa_06.jpg
+
+- title: snares of enemies
+  thumbnail: /img/sculptures/snares-of-enemies/snares-of-enemies_01.jpg
+  images:
+    - url: /sculptures/snares-of-enemies/snares-of-enemies_01.jpg
+
+
 
 - title: orphan
   thumbnail: /img/sculptures/orphan/orphan_02.jpg
+  images:
+    - url: /sculptures/orphan/orphan_01.jpg
+    - url: /sculptures/orphan/orphan_02.jpg
+    - url: /sculptures/orphan/orphan_03.jpg
+
+
+
+- title: host
+  thumbnail: /img/sculptures/host/host_02.jpg
+  images:
+    - url: /sculptures/host/host_01.jpg
+    - url: /sculptures/host/host_02.jpg
+    - url: /sculptures/host/host_03.jpg
+    - url: /sculptures/host/host_04.jpg
+    - url: /sculptures/host/host_05.jpg
+    - url: /sculptures/host/host_06.jpg
+    - url: /sculptures/host/host_07.jpg
+
+
+
+- title: chainmail
+  thumbnail: /img/sculptures/chainmail/anaconda_03.jpg
+  images:
+    - url: /sculptures/chainmail/anaconda_01.jpg
+    - url: /sculptures/chainmail/anaconda_02.jpg
+    - url: /sculptures/chainmail/anaconda_03.jpg
+    - url: /sculptures/chainmail/eve_01.jpg
+    - url: /sculptures/chainmail/eve_02.jpg
+    - url: /sculptures/chainmail/rapture_01.jpg
+
+
+
+- title: requiem
+  thumbnail: /img/sculptures/requiem/requiem_03.jpg
+  images:
+    - url: /sculptures/requiem/requiem_01.jpg
+    - url: /sculptures/requiem/requiem_02.jpg
+    - url: /sculptures/requiem/requiem_03.jpg
+
+
+
+- title: fish hooks
+  thumbnail: /img/sculptures/fish-hooks/siblings_03.jpg
+  images:
+    - url: /sculptures/fish-hooks/wise-old-woman_01.jpg
+    - url: /sculptures/fish-hooks/clutch_01.jpg
+    - url: /sculptures/fish-hooks/collar_01.jpg
+    - url: /sculptures/fish-hooks/collar_02.jpg
+    - url: /sculptures/fish-hooks/collar_03.jpg
+    - url: /sculptures/fish-hooks/collar_04.jpg
+    - url: /sculptures/fish-hooks/siblings_01.jpg
+    - url: /sculptures/fish-hooks/siblings_02.jpg
+    - url: /sculptures/fish-hooks/siblings_03.jpg
+
+
+- title: wax pods
+  thumbnail: /img/sculptures/wax-pods/eve-wall_01.jpg
+  images:
+    - url: /sculptures/wax-pods/anima_01.jpg
+    - url: /sculptures/wax-pods/animus_01.jpg
+    - url: /sculptures/wax-pods/eve-wall_01.jpg
+    - url: /sculptures/wax-pods/pods_01.jpg
+    - url: /sculptures/wax-pods/untitled-wax_01.jpg
+    - url: /sculptures/wax-pods/untitled-wax_02.jpg
+    - url: /sculptures/wax-pods/untitled-wax_03.jpg
+    - url: /sculptures/wax-pods/untitled-wax_04.jpg
+
+
+
+- title: wax and pins
+  thumbnail: /img/sculptures/wax-and-pins/swarm_01.jpg
+  images:
+    - url: /sculptures/wax-and-pins/harem_01.jpg
+    - url: /sculptures/wax-and-pins/nest_01.jpg
+    - url: /sculptures/wax-and-pins/swarm_01.jpg
+
+
+
+- title: sirens
+  thumbnail: /img/sculptures/sirens/siren_02.jpg
+  images:
+    - url: /sculptures/sirens/siren_01.jpg
+    - url: /sculptures/sirens/siren_02.jpg
+    - url: /sculptures/sirens/siren_03.jpg
+    - url: /sculptures/sirens/siren_04.jpg
+    - url: /sculptures/sirens/siren_05.jpg
