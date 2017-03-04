@@ -1,65 +1,61 @@
 import '../_css/index.css'
 import './slider.js'
+import './imgGrid.js'
 
-const $ = {}
+const $ = window.jQuery
 
-$.toArray = ($el) => [].slice.call($el)
-$.one = (selector) => document.querySelector(selector)
-$.all = (selector) => $.toArray(document.querySelectorAll(selector))
-$.removeClass = ($el, className) => $el.classList.remove(className)
-$.addClass = ($el, className) => $el.classList.add(className)
-$.on = (events, el, cb) => events
-  .split(' ')
-  .map(evt => el.addEventListener(evt, cb))
+$(document).ready(function () {
+  const slider = $('[slider-full-screen]')
+  const slides = $('[slide-full-screen]')
+  const logo = $('[logo]')
+  const menuItems = $('[menu-item]')
 
+  const fadeIn = (i) => $(slides[i]).addClass('active')
+  const fadeOut = (i) => $(slides[i]).removeClass('active')
 
-const $slider = $.one('[slider-full-screen]')
-const $slides = $.all('[slide-full-screen]')
-const $logo = $.one('[logo]')
-const $menuItems = $.all('[menu-item]')
+  slides
 
-const fadeIn = (i) => $.addClass($slides[i], 'active')
-const fadeOut = (i) => $.removeClass($slides[i], 'active')
-
-const menuColor = (method, logo, menuItems) => (color) => {
-  $[method](logo, color)
-  menuItems.forEach(item => $[method](item, color))
-}
-
-const addMenuColor = menuColor('addClass', $logo, $menuItems)
-const removeMenuColor = menuColor('removeClass', $logo, $menuItems)
-
-let currentSlide = 0
-const totalSlides = $slides.length
-
-const handleFade = () => {
-  if (currentSlide === totalSlides - 1) {
-    currentSlide = 0
-    fadeIn(currentSlide)
-    fadeOut(totalSlides - 1)
-  } else {
-    currentSlide ++
-    fadeIn(currentSlide)
-    if (currentSlide !== 0) fadeOut(currentSlide - 1)
+  const menuColor = (method, logo, menuItems) => (color) => {
+    logo[method](color)
+    menuItems.each((i, item) => $(item)[method](color))
   }
-}
 
-const handleMenuColor = () => {
-  const isDark = $slides[currentSlide].hasAttribute('dark')
-  if (isDark) {
-    addMenuColor('white')
-    removeMenuColor('black')
-  } else {
-    addMenuColor('black')
-    removeMenuColor('white')
-  }
-}
+  const addMenuColor = menuColor('addClass', logo, menuItems)
+  const removeMenuColor = menuColor('removeClass', logo, menuItems)
 
-setTimeout(() => {
-  if ($slides.length > 0) {
-    $.on('click keypress', $slider, handleFade)
-    $.on('click keypress', $slider, handleMenuColor)
-    handleMenuColor()
-    fadeIn(currentSlide)
+  let currentSlide = 0
+  const totalSlides = slides.length
+
+  const handleFade = () => {
+    if (currentSlide === totalSlides - 1) {
+      currentSlide = 0
+      fadeIn(currentSlide)
+      fadeOut(totalSlides - 1)
+    } else {
+      currentSlide ++
+      fadeIn(currentSlide)
+      if (currentSlide !== 0) fadeOut(currentSlide - 1)
+    }
   }
-}, 100)
+
+  const handleMenuColor = () => {
+    const isDark = slides[currentSlide].hasAttribute('dark')
+    if (isDark) {
+      addMenuColor('white')
+      removeMenuColor('black')
+    } else {
+      addMenuColor('black')
+      removeMenuColor('white')
+    }
+  }
+
+  if (slides.length) {
+    slider.on('click keypress', handleFade)
+    slider.on('click keypress', handleMenuColor)
+
+    $(slider).imagesLoaded({ background: '[slide-full-screen]' }, function () {
+      handleMenuColor()
+      fadeIn(currentSlide)
+    })
+  }
+})
