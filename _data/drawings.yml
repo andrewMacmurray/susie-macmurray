@@ -1,2 +1,106 @@
 - title: trench map
   thumbnail: /img/drawings/trench-map/trench-map_02.jpg
+  images:
+    - url: /drawings/trench-map/trench-map_01.jpg
+      portrait: true
+    - url: /drawings/trench-map/trench-map_02.jpg
+      portrait: true
+
+
+
+- title: hairnet
+  thumbnail: /img/drawings/hairnet/large-hairnet_02.jpg
+  images:
+    - url: /drawings/hairnet/large-hairnet_01.jpg
+      portrait: true
+    - url: /drawings/hairnet/large-hairnet_02.jpg
+      portrait: true
+    - url: /drawings/hairnet/small-hairnet_01.jpg
+      portrait: true
+    - url: /drawings/hairnet/small-hairnet_02.jpg
+      portrait: true
+    - url: /drawings/hairnet/small-hairnet_03.jpg
+      portrait: true
+    - url: /drawings/hairnet/medium-hairnet_01.jpg
+      portrait: true
+    - url: /drawings/hairnet/stretched-hairnet_01.jpg
+      portrait: true
+    - url: /drawings/hairnet/stretched-hairnet_02.jpg
+      portrait: true
+    - url: /drawings/hairnet/stretched-hairnet_03.jpg
+      portrait: true
+    - url: /drawings/hairnet/tied-hairnets_01.jpg
+      portrait: true
+    - url: /drawings/hairnet/tied-hairnets_02.jpg
+      portrait: true
+    - url: /drawings/hairnet/tied-hairnets_03.jpg
+      portrait: true
+    - url: /drawings/hairnet/two-hairnets_01.jpg
+      portrait: true
+
+
+- title: net curtain
+  thumbnail: /img/drawings/net-curtain/net-curtain_03.jpg
+  images:
+    - url: /drawings/net-curtain/net-curtain_01.jpg
+      portrait: true
+    - url: /drawings/net-curtain/net-curtain_02.jpg
+      portrait: true
+    - url: /drawings/net-curtain/net-curtain_03.jpg
+      portrait: true
+    - url: /drawings/net-curtain/repair_01.jpg
+      portrait: true
+    - url: /drawings/net-curtain/repair_02.jpg
+      portrait: true
+    - url: /drawings/net-curtain/repair_03.jpg
+      portrait: true
+    - url: /drawings/net-curtain/repair_04.jpg
+      portrait: true
+
+
+
+- title: gauze bandage
+  thumbnail: /img/drawings/gauze-bandage/gauze-bandage_03.jpg
+  images:
+    - url: /drawings/gauze-bandage/gauze-bandage_01.jpg
+      portrait: true
+    - url: /drawings/gauze-bandage/gauze-bandage_02.jpg
+      portrait: true
+    - url: /drawings/gauze-bandage/gauze-bandage_03.jpg
+      portrait: true
+    - url: /drawings/gauze-bandage/gauze-bandage_04.jpg
+      portrait: true
+    - url: /drawings/gauze-bandage/gauze-bandage_05.jpg
+      portrait: true
+    - url: /drawings/gauze-bandage/gauze-bandage_06.jpg
+      portrait: true
+    - url: /drawings/gauze-bandage/gauze-bandage_07.jpg
+      portrait: true
+    - url: /drawings/gauze-bandage/gauze-bandage_08.jpg
+      portrait: true
+    - url: /drawings/gauze-bandage/gauze-bandage_09.jpg
+      portrait: true
+    - url: /drawings/gauze-bandage/gauze-bandage_10.jpg
+      portrait: true
+    - url: /drawings/gauze-bandage/gauze-bandage_11.jpg
+      portrait: true
+
+
+
+- title: venice lagoon
+  thumbnail: /img/drawings/venice-lagoon/venice-lagoon_03.jpg
+  images:
+    - url: /drawings/venice-lagoon/venice-lagoon_01.jpg
+      portrait: true
+    - url: /drawings/venice-lagoon/venice-lagoon_02.jpg
+      portrait: true
+    - url: /drawings/venice-lagoon/venice-lagoon_03.jpg
+      portrait: true
+    - url: /drawings/venice-lagoon/venice-lagoon_04.jpg
+      portrait: true
+    - url: /drawings/venice-lagoon/venice-lagoon_05.jpg
+      portrait: true
+    - url: /drawings/venice-lagoon/venice-lagoon_06.jpg
+      portrait: true
+    - url: /drawings/venice-lagoon/venice-lagoon_07.jpg
+      portrait: true

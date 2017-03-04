@@ -1,2 +1,64 @@
 - title: medusa
-  thumbnail: /img/garment-sculptures/medusa/medusa_06.jpg
+  thumbnail: /img/garment-sculptures/medusa/medusa_04.jpg
+  images:
+    - url: /garment-sculptures/medusa/medusa_01.jpg
+    - url: /garment-sculptures/medusa/medusa_02.jpg
+    - url: /garment-sculptures/medusa/medusa_03.jpg
+    - url: /garment-sculptures/medusa/medusa_04.jpg
+
+
+- title: widow
+  thumbnail: /img/garment-sculptures/widow/widow_04.jpg
+  images:
+    - url: /garment-sculptures/widow/widow_01.jpg
+      portrait: true
+    - url: /garment-sculptures/widow/widow_02.jpg
+    - url: /garment-sculptures/widow/widow_03.jpg
+      portrait: true
+    - url: /garment-sculptures/widow/widow_04.jpg
+    - url: /garment-sculptures/widow/widow_05.jpg
+      portrait: true
+    - url: /garment-sculptures/widow/widow_06.jpg
+
+
+- title: gladrags
+  thumbnail: /img/garment-sculptures/gladrags/gladrags_02.jpg
+  images:
+    - url: /garment-sculptures/gladrags/gladrags_01.jpg
+      portrait: true
+    - url: /garment-sculptures/gladrags/gladrags_02.jpg
+    - url: /garment-sculptures/gladrags/gladrags_03.jpg
+      portrait: true
+    - url: /garment-sculptures/gladrags/gladrags_04.jpg
+      portrait: true
+
+
+- title: icarus
+  thumbnail: /img/garment-sculptures/icarus/icarus_01.jpg
+  images:
+    - url: /garment-sculptures/icarus/icarus_01.jpg
+      portrait: true
+    - url: /garment-sculptures/icarus/icarus_02.jpg
+      portrait: true
+    - url: /garment-sculptures/icarus/icarus_03.jpg
+    - url: /garment-sculptures/icarus/icarus_04.jpg
+    - url: /garment-sculptures/icarus/icarus_05.jpg
+
+
+- title: a mixture of frailties
+  thumbnail: /img/garment-sculptures/mixture-of-frailties/mixture-of-frailties_01.jpg
+  images:
+    - url: /garment-sculptures/mixture-of-frailties/mixture-of-frailties_01.jpg
+    - url: /garment-sculptures/mixture-of-frailties/mixture-of-frailties_02.jpg
+    - url: /garment-sculptures/mixture-of-frailties/mixture-of-frailties_03.jpg
+    - url: /garment-sculptures/mixture-of-frailties/mixture-of-frailties_04.jpg
+
+
+- title: icon
+  thumbnail: /img/garment-sculptures/icon/icon_05.jpg
+  images:
+    - url: /garment-sculptures/icon/icon_01.jpg
+    - url: /garment-sculptures/icon/icon_02.jpg
+    - url: /garment-sculptures/icon/icon_03.jpg
+    - url: /garment-sculptures/icon/icon_04.jpg
+    - url: /garment-sculptures/icon/icon_05.jpg

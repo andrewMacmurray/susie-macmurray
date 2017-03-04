@@ -1,2 +1,101 @@
 - title: cloud
-  thumbnail: /img/site-specific-installations/cloud/cloud_03.jpg
+  thumbnail: /img/site-specific-installations/cloud/cloud_04.jpg
+  images:
+    - url: /site-specific-installations/cloud/cloud_01.jpg
+    - url: /site-specific-installations/cloud/cloud_02.jpg
+    - url: /site-specific-installations/cloud/cloud_03.jpg
+    - url: /site-specific-installations/cloud/cloud_04.jpg
+    - url: /site-specific-installations/cloud/cloud_05.jpg
+    - url: /site-specific-installations/cloud/cloud_06.jpg
+    - url: /site-specific-installations/cloud/cloud_07.jpg
+
+
+
+- title: echo
+  thumbnail: /img/site-specific-installations/echo/echo_02.jpg
+  images:
+    - url: /site-specific-installations/echo/echo_01.jpg
+    - url: /site-specific-installations/echo/echo_02.jpg
+    - url: /site-specific-installations/echo/echo_03.jpg
+    - url: /site-specific-installations/echo/echo_04.jpg
+
+
+- title: halo
+  thumbnail: /img/site-specific-installations/halo/halo_03.jpg
+  images:
+    - url: /site-specific-installations/halo/halo_01.jpg
+    - url: /site-specific-installations/halo/halo_02.jpg
+    - url: /site-specific-installations/halo/halo_03.jpg
+    - url: /site-specific-installations/halo/halo_04.jpg
+    - url: /site-specific-installations/halo/halo_05.jpg
+    - url: /site-specific-installations/halo/halo_06.jpg
+
+
+
+- title: promenade
+  thumbnail: /img/site-specific-installations/promenade/promenade_03.jpg
+  images:
+    - url: /site-specific-installations/promenade/promenade_01.jpg
+    - url: /site-specific-installations/promenade/promenade_02.jpg
+    - url: /site-specific-installations/promenade/promenade_03.jpg
+    - url: /site-specific-installations/promenade/promenade_04.jpg
+    - url: /site-specific-installations/promenade/promenade_05.jpg
+    - url: /site-specific-installations/promenade/promenade_06.jpg
+
+
+- title: shell
+  thumbnail: /img/site-specific-installations/shell/shell_05.jpg
+  images:
+    - url: /site-specific-installations/shell/shell_01.jpg
+      portrait: true
+    - url: /site-specific-installations/shell/shell_02.jpg
+      portrait: true
+    - url: /site-specific-installations/shell/shell_03.jpg
+    - url: /site-specific-installations/shell/shell_04.jpg
+      portrait: true
+    - url: /site-specific-installations/shell/shell_05.jpg
+      portrait: true
+
+
+
+- title: here come the girls
+  thumbnail: /img/site-specific-installations/here-come-the-girls/here-come-the-girls_02.jpg
+  images:
+    - url: /site-specific-installations/here-come-the-girls/here-come-the-girls_01.jpg
+      portrait: true
+    - url: /site-specific-installations/here-come-the-girls/here-come-the-girls_02.jpg
+      portrait: true
+    - url: /site-specific-installations/here-come-the-girls/here-come-the-girls_03.jpg
+      portrait: true
+    - url: /site-specific-installations/here-come-the-girls/here-come-the-girls_04.jpg
+      portrait: true
+
+
+
+- title: resonance
+  thumbnail: /img/site-specific-installations/resonance/resonance_02.jpg
+  images:
+    - url: /site-specific-installations/resonance/resonance_01.jpg
+    - url: /site-specific-installations/resonance/resonance_02.jpg
+    - url: /site-specific-installations/resonance/resonance_03.jpg
+    - url: /site-specific-installations/resonance/resonance_04.jpg
+
+
+
+- title: spectacle
+  thumbnail: /img/site-specific-installations/spectacle/spectacle_02.jpg
+  images:
+    - url: /site-specific-installations/spectacle/spectacle_01.jpg
+    - url: /site-specific-installations/spectacle/spectacle_02.jpg
+
+
+- title: stratum
+  thumbnail: /img/site-specific-installations/stratum/stratum_01.jpg
+  images:
+    - url: /site-specific-installations/stratum/stratum_01.jpg
+    - url: /site-specific-installations/stratum/stratum_02.jpg
+    - url: /site-specific-installations/stratum/stratum_03.jpg
+    - url: /site-specific-installations/stratum/stratum_04.jpg
+    - url: /site-specific-installations/stratum/stratum_05.jpg
+    - url: /site-specific-installations/stratum/stratum_06.jpg
+    - url: /site-specific-installations/stratum/stratum_07.jpg

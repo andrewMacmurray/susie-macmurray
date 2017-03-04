@@ -4,9 +4,7 @@ title: Susie MacMurray
 ---
 
 <div slider-full-screen class="pointer">
-  <div slide-full-screen dark class="absolute w-100 top-0 vh-100 bg-center cover o-0 transition" style="background-image: url({{ site.url }}/img/sculptures/pandora/pandora_02.jpg)"></div>
-  <div slide-full-screen dark class="absolute w-100 top-0 vh-100 bg-center cover o-0 transition" style="background-image: url({{ site.url }}/img/sculptures/pandora/pandora_03.jpg)"></div>
-  <div slide-full-screen dark class="absolute w-100 top-0 vh-100 bg-center cover o-0 transition" style="background-image: url({{ site.url }}/img/sculptures/pandora/pandora_06.jpg)"></div>
-  <div slide-full-screen light class="absolute w-100 top-0 vh-100 bg-center cover o-0 transition" style="background-image: url({{ site.url }}/img/sculptures/hold-the-line/hold-the-line_02.jpg)"></div>
-  <div slide-full-screen light class="absolute w-100 top-0 vh-100 bg-center cover o-0 transition" style="background-image: url({{ site.url }}/img/sculptures/hold-the-line/hold-the-line_03.jpg)"></div>
+  {% for slide in site.data.home-images %}
+    <div slide-full-screen {{ slide.shade }} class="absolute top-0 w-100 vh-100 center cover o-0 transition" style="background-image: url({{ site.url }}/img/{{ slide.url }})"></div>
+  {% endfor %}
 </div>

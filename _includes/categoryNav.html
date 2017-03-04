@@ -1,0 +1,9 @@
+<ul class="flex flex-wrap tc center mb5">
+  {% for category in site.data.categories %}
+
+    <a href="{{ site.url }}/images/{{ category.url }}">
+      <li class="f6 fw4 mt0 mh3 {% if page.title == category.title %}{{ 'black' }}{% else %}{{ 'gray' }}{% endif %}">{{ category.title }}</li>
+    </a>
+
+  {% endfor %}
+</ul>
