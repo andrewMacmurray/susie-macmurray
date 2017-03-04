@@ -1,10 +1,10 @@
-<nav class="mh3 mh4-ns flex justify-between z-3">
+<nav class="mh3 mh4-m flex-m justify-between z-3">
 
   <a logo class="no-underline transition" href="{{ site.url }}">
-    <h1 class="tracked-mega ttu fw5 dib">Susie MacMurray</h1>
+    <h1 class="tracked-mega ttu fw5 f4 f3-ns dib">Susie MacMurray</h1>
   </a>
 
-  <ul class="tr dib">
+  <ul class="tr-m dib-m">
     {% for title in site.data.nav-titles %}
 
       {% if page.title == site.title %}
@@ -15,9 +15,9 @@
         {% assign menuColor = " gray" %}
       {% endif %}
 
-      <a menu-item class="{{ 'dib no-underline fw4 mh2 transition' | append: menuColor }}"
+      <a menu-item class="{{ 'dib-m no-underline fw4 mh2-m transition' | append: menuColor }}"
          href="{{ site.url }}{{ title.url }}">
-        <p class="mb0">{{title.text}}</p>
+        <p class="ma0 mt3-m">{{title.text}}</p>
       </a>
 
     {% endfor %}
