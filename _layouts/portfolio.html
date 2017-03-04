@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="mw7 center">
-  <h2 class="fw4 mt0 mb4 f5">{{ page.title }}</h2>
+  <h2 class="fw4 mt0 mb4 f5 ph3 ph4-m ph0-l">{{ page.title }}</h2>
   <div class="relative">
     <div class="absolute w-25 w-100-ns h-75 top-0 left-0 z-3 pointer" id="previous"></div>
     <div class="absolute w-25 w-100-ns h-75 top-0 right-0 z-3 pointer" id="next"></div>
@@ -24,7 +24,7 @@ layout: default
     </div>
   </div>
 
-  <div class="captions">
+  <div class="captions ph3 ph4-m ph0-l">
     {% for project in site.data[page.dataSource] %}
       {% if project.title == page.title %}
         {% for img in project.images %}
@@ -36,17 +36,18 @@ layout: default
     {% endfor %}
   </div>
 
-  {% for project in site.data[page.dataSource] %}
-    {% if project.title == page.title %}
-      {% if project.description %}
+  <div class="ph3 ph4-m ph0-l">
+    {% for project in site.data[page.dataSource] %}
+      {% if project.title == page.title %}
+        {% if project.description %}
 
-        {% for x in project.description %}
-          <span class="f6 fw4">{{ x }}</span>
-          </br>
-        {% endfor %}
+          {% for x in project.description %}
+            <span class="f6 fw4">{{ x }}</span>
+            </br>
+          {% endfor %}
 
+        {% endif %}
       {% endif %}
-    {% endif %}
-  {% endfor %}
-
+    {% endfor %}
+  </div>
 </div>
