@@ -7,6 +7,7 @@ slider.slick({
   prevArrow: '#previous',
   nextArrow: '#next',
   asNavFor: '.captions',
+  lazyLoad: 'progressive',
   dots: true,
   customPaging: function (slider, i) {
     const imgUrl = $(slider.$slides[i]).find('[imgdata]')[0].getAttribute('imgdata')
@@ -16,6 +17,10 @@ slider.slick({
       </div>
     `
   }
+})
+
+$(slider).imagesLoaded({ background: '[slide-img]' }, function () {
+  $(slider).removeClass('o-0')
 })
 
 captions.slick({
