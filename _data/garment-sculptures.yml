@@ -24,6 +24,11 @@
     - Black Nappa Leather,
     - 43 Kg Adamantine Dressmakers Pins,
     - Tailors Dummy (Manchester Art Gallery collection)
+    -
+    - <a href="http://www.bbc.co.uk/programmes/p00cgf1x" target="_blank">interview on womans hour</a>
+    -
+    - <iframe src="https://player.vimeo.com/video/5181019" width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
   images:
     - url: /garment-sculptures/widow/widow_01.jpg
       contain: true
@@ -67,6 +72,8 @@
     -
     - <a href="http://artwisecurators.com/projects/wwf-pandamonium-2/" target="_blank">artwisecurators pandamonium</a>
   images:
+    - video: https://www.youtube.com/embed/PSlfWxEEcTg
+      videoThumbnail: /garment-sculptures/icarus/icarus_01.jpg
     - url: /garment-sculptures/icarus/icarus_01.jpg
       contain: true
     - url: /garment-sculptures/icarus/icarus_02.jpg

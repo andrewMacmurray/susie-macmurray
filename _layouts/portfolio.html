@@ -10,17 +10,26 @@ layout: default
   {% endif %}
 {% endfor %}
 
+<div class="flex justify-between mh3 mh4-m pa1">
+  <a class="fw4 f6 gray" href="{{ site.url }}/images/{{ page.dataSource }}">back to {{ page.dataSource | split: '-' | join: ' ' }}</a>
+  <h2 class="fw4 f6 mh2-m mt0">{{ page.title }}</h2>
+</div>
 <div class="mw7 center">
-  <h2 class="fw4 mt0 mb4 f5 ph3 ph4-m ph0-l">{{ page.title }}</h2>
   <div class="relative">
-    <div class="absolute w-25 w-100-ns h-75 top-0 left-0 z-3 pointer" id="previous"></div>
-    <div class="absolute w-25 w-100-ns h-75 top-0 right-0 z-3 pointer" id="next"></div>
-    <div class="slider o-0 transition">
+    <div class="absolute w-25 w-50-ns h-75 top-0 left-0 z-3 pointer" id="previous"></div>
+    <div class="absolute w-25 w-50-ns h-75 top-0 right-0 z-3 pointer" id="next"></div>
+    <div class="slider o-0 z-4 relative transition">
       {% for img in currentProject.images %}
         <div>
-          <div class="aspect-ratio aspect-ratio--16x9-m aspect-ratio--4x3">
-            <div slide-img imgdata="{{ site.url}}/img/{{ img.url }}" class="aspect-ratio--object bg-center {% if img.contain == true %}{{ 'contain' }}{% else %}{{ 'cover' }}{% endif %}" style="background-image: url({{ site.url }}/img/{{ img.url }})"></div>
-          </div>
+          {% if img.video %}
+            <div video slide-img imgdata="{{ site.url }}/img/{{ img.videoThumbnail }}" class="aspect-ratio aspect-ratio--16x9-m aspect-ratio--4x3">
+              <iframe src="{{ img.video }}" width="100%" class="h6 h7-ns h8-m" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+          {% else %}
+            <div class="aspect-ratio aspect-ratio--16x9-m aspect-ratio--4x3">
+              <div slide-img imgdata="{{ site.url}}/img/{{ img.url }}" class="aspect-ratio--object bg-center {% if img.contain == true %}{{ 'contain' }}{% else %}{{ 'cover' }}{% endif %}" style="background-image: url({{ site.url }}/img/{{ img.url }})"></div>
+            </div>
+          {% endif %}
         </div>
       {% endfor %}
     </div>
@@ -28,6 +37,7 @@ layout: default
 
   <div class="captions ph3 ph4-m ph0-l">
       {% for img in currentProject.images %}
+
         {% if img.caption != "" %}
 
           {% assign captionLines = img.caption | split: ", " %}
@@ -60,4 +70,5 @@ layout: default
 
     {% endif %}
   </div>
+
 </div>

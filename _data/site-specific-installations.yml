@@ -6,6 +6,8 @@
     - Reclaimed Military Barbed Wire,
     - Butterfly Netting
   images:
+    - video: https://www.youtube.com/embed/ipXqthmqBcg
+      videoThumbnail: /site-specific-installations/cloud/cloud_01.jpg
     - url: /site-specific-installations/cloud/cloud_01.jpg
     - url: /site-specific-installations/cloud/cloud_02.jpg
     - url: /site-specific-installations/cloud/cloud_03.jpg
@@ -13,6 +15,8 @@
     - url: /site-specific-installations/cloud/cloud_05.jpg
     - url: /site-specific-installations/cloud/cloud_06.jpg
     - url: /site-specific-installations/cloud/cloud_07.jpg
+    - video: https://www.youtube.com/embed/exXklq9CB48
+      videoThumbnail: /site-specific-installations/cloud/cloud_01.jpg
 
 
 
@@ -57,6 +61,8 @@
     - Derbyshire, 2010,
     - 105 Miles of Fine Gold Embroidery Thread
   images:
+    - video: https://player.vimeo.com/video/13462035
+      videoThumbnail: /site-specific-installations/promenade/promenade_01.jpg
     - url: /site-specific-installations/promenade/promenade_01.jpg
     - url: /site-specific-installations/promenade/promenade_02.jpg
     - url: /site-specific-installations/promenade/promenade_03.jpg

@@ -1,0 +1,15 @@
+.h6 { height: var(--height-6); }
+.h7 { height: var(--height-7); }
+.h8 { height: var(--height-8); }
+
+@media (--breakpoint-not-small) {
+  .h6-ns { height: var(--height-6); }
+  .h7-ns { height: var(--height-7); }
+  .h8-ns { height: var(--height-8); }
+}
+
+@media (--breakpoint-medium) {
+  .h6-m { height: var(--height-6); }
+  .h7-m { height: var(--height-7); }
+  .h8-m { height: var(--height-8); }
+}

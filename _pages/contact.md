@@ -31,7 +31,11 @@ T: +1 212/223-2227
 e-mail: [carol@danese.com](carol@danese.com)  
 
 
-photo credits
+**Photo Credits**
+
+Ben Blackall: 2004 - Present  
+Matthew Andrews, Julia Conway: 2015  
+Steve Hickey: 2015  
 
 
 e-mail: [susie@susiemacmurray.co.uk](mailto:susie@susiemacmurray.co.uk)

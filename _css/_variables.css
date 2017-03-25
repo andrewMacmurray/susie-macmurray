@@ -39,12 +39,18 @@
   --height-3: 4rem;
   --height-4: 6rem;
   --height-5: 8rem;
+  --height-6: 14rem;
+  --height-7: 20rem;
+  --height-8: 27rem;
 
   --width-1: 1rem;
   --width-2: 2rem;
   --width-3: 4rem;
   --width-4: 6rem;
   --width-5: 8rem;
+  --width-6: 14rem;
+  --width-7: 20rem;
+  --width-8: 27rem;
 
   --max-width-1: 1rem;
   --max-width-2: 2rem;
