@@ -7,7 +7,7 @@
     - silk velvet
   images:
     - url: /sculptures/strange-fruit/strange-fruit_01.jpg
-      portrait: true
+      contain: true
 
 
 
@@ -19,18 +19,23 @@
     - 2016
   images:
     - url: /sculptures/pandora/pandora_01.jpg
-      portrait: true
+      contain: true
     - url: /sculptures/pandora/pandora_02.jpg
     - url: /sculptures/pandora/pandora_03.jpg
     - url: /sculptures/pandora/pandora_04.jpg
-      portrait: true
+      contain: true
     - url: /sculptures/pandora/pandora_05.jpg
-      portrait: true
+      contain: true
     - url: /sculptures/pandora/pandora_06.jpg
 
 
 - title: boat people
   thumbnail: /img/sculptures/boat-people/boat-people_01.jpg
+  description:
+    - Boat People 2017,
+    - Reclaimed Military Barbed Wire,
+    - Silk Velvet,
+    - Found Wood
   images:
     - url: /sculptures/boat-people/boat-people_01.jpg
 
@@ -38,20 +43,24 @@
 - title: hold the line
   thumbnail: /img/sculptures/hold-the-line/hold-the-line_02.jpg
   description:
-    - reclaimed military barbed wire,
-    - painted MDF,
-    - wall mounted,
+    - Reclaimed Military Barbed Wire,
+    - Painted MDF,
+    - Wall mounted,
     - 2016
   images:
     - url: /sculptures/hold-the-line/hold-the-line_02.jpg
     - url: /sculptures/hold-the-line/hold-the-line_01.jpg
-      portrait: true
+      contain: true
     - url: /sculptures/hold-the-line/hold-the-line_03.jpg
 
 
 
 - title: palisade
   thumbnail: /img/sculptures/palisade/palisade_03.jpg
+  description:
+    - Reclaimed Military Barbed Wire,
+    - Composite Portland Stone,
+    - 2016
   images:
     - url: /sculptures/palisade/palisade_01.jpg
     - url: /sculptures/palisade/palisade_02.jpg
@@ -63,6 +72,10 @@
 
 - title: snares of enemies
   thumbnail: /img/sculptures/snares-of-enemies/snares-of-enemies_01.jpg
+  description:
+    - Reclaimed Military Barbed Wire,
+    - Composite Portland Stone,
+    - 2016
   images:
     - url: /sculptures/snares-of-enemies/snares-of-enemies_01.jpg
 
@@ -72,13 +85,20 @@
   thumbnail: /img/sculptures/orphan/orphan_02.jpg
   images:
     - url: /sculptures/orphan/orphan_01.jpg
+      caption: Orphan 2014, Black Annealed Wire, Bull's Nose Ring
     - url: /sculptures/orphan/orphan_02.jpg
+      caption: Orphan 2014, Detail
     - url: /sculptures/orphan/orphan_03.jpg
+      caption: Orphan 2014, Black Annealed Wire, Bull's Nose Ring
 
 
 
 - title: host
   thumbnail: /img/sculptures/host/host_02.jpg
+  description:
+    - Reclaimed Military Barbed Wire,
+    - Composite Portland Stone,
+    - 2016
   images:
     - url: /sculptures/host/host_01.jpg
     - url: /sculptures/host/host_02.jpg
@@ -94,16 +114,30 @@
   thumbnail: /img/sculptures/chainmail/anaconda_03.jpg
   images:
     - url: /sculptures/chainmail/anaconda_01.jpg
+      contain: true
+      caption: Anaconda 2013, Dimensions Variable
     - url: /sculptures/chainmail/anaconda_02.jpg
+      contain: true
+      caption: Anaconda 2013, Installation View, Danese Corey NY
     - url: /sculptures/chainmail/anaconda_03.jpg
+      caption: Anaconda 2013, Detail, Dimensions Variable
     - url: /sculptures/chainmail/eve_01.jpg
+      caption: Eve 2013, Wax, Dimensions Variable, Handmade Aluminium Rings
     - url: /sculptures/chainmail/eve_02.jpg
+      contain: true
+      caption: Eve 2013, Wax, Dimensions Variable, Handmade Aluminium Rings
     - url: /sculptures/chainmail/rapture_01.jpg
+      contain: true
+      caption: Rapture 2014, 105cm x 50cm x 20cm Approx
 
 
 
 - title: requiem
   thumbnail: /img/sculptures/requiem/requiem_03.jpg
+  description:
+    - Used violin and cello strings,
+    - Strung onto used piano string (all donated by professional musicians)
+    - 2016
   images:
     - url: /sculptures/requiem/requiem_01.jpg
     - url: /sculptures/requiem/requiem_02.jpg
@@ -115,27 +149,56 @@
   thumbnail: /img/sculptures/fish-hooks/siblings_03.jpg
   images:
     - url: /sculptures/fish-hooks/wise-old-woman_01.jpg
+      contain: true
+      caption: Wise Old Woman 2013, Wire, Fish Hooks (private collection)
     - url: /sculptures/fish-hooks/clutch_01.jpg
+      contain: true
+      caption: Clutch 2013, Wax, Fish Hooks, Glass Dome
     - url: /sculptures/fish-hooks/collar_01.jpg
+      contain: true
+      caption: Collar 2013, 87cm x 40cm x 4cm, Found Cable, Large Fish Hooks
     - url: /sculptures/fish-hooks/collar_02.jpg
+      caption: Collar 2013, 87cm x 40cm x 4cm, Found Cable, Large Fish Hooks
     - url: /sculptures/fish-hooks/collar_03.jpg
+      contain: true
+      caption: Collar II, 2013, Clear Plastic Medical Tube, Aluminium Wire, Saddlery Thread, Fish Hooks
     - url: /sculptures/fish-hooks/collar_04.jpg
+      contain: true
+      caption: Collar II, 2013, Clear Plastic Medical Tube, Aluminium Wire, Saddlery Thread, Fish Hooks
     - url: /sculptures/fish-hooks/siblings_01.jpg
+      caption: Siblings 2013, Dimensions Variable, Fish Hooks, Wax, Steel Pins
     - url: /sculptures/fish-hooks/siblings_02.jpg
+      caption: Siblings 2013, Dimensions Variable, Fish Hooks, Wax, Steel Pins
     - url: /sculptures/fish-hooks/siblings_03.jpg
+      caption: Siblings 2013, Dimensions Variable, Fish Hooks, Wax, Steel Pins
 
 
 - title: wax pods
   thumbnail: /img/sculptures/wax-pods/eve-wall_01.jpg
   images:
     - url: /sculptures/wax-pods/anima_01.jpg
+      contain: true
+      caption: Anima 2011, 57cm x 27cm x 30cm, Air Compressor Hose, Wax, Steel Bracket (private collection)
     - url: /sculptures/wax-pods/animus_01.jpg
+      caption: Animus 2011, 75cm x 27cm x 28cm, Air Compressor Hose, Wax, Steel Bracket
+      contain: true
     - url: /sculptures/wax-pods/eve-wall_01.jpg
+      contain: true
+      caption: Eve 2013, Air Compressor Hose, Wax, Steel Bracket
     - url: /sculptures/wax-pods/pods_01.jpg
+      caption: Pods 2013, Dimensions Variable, Milking Parlour Hose, Wax, Aluminium Wire
     - url: /sculptures/wax-pods/untitled-wax_01.jpg
+      contain: true
+      caption: Untitled Wax Series, No 1, 45cm x 22cm x 9cm, Compressor Hose, Leather Cord
     - url: /sculptures/wax-pods/untitled-wax_02.jpg
+      contain: true
+      caption: Untitled Wax Series, No 2 2013, 110cm x 8cm x 6cm, Wax & Rubber Tape
     - url: /sculptures/wax-pods/untitled-wax_03.jpg
+      contain: true
+      caption: Untitled Wax Series, No 3  2013, 75cm x 15cm x 12cm, Wax & Rubber Tape
     - url: /sculptures/wax-pods/untitled-wax_04.jpg
+      contain: true
+      caption: Untitled Wax Series, No 4  2013, Wax, Compressor Hose, Leather Cord
 
 
 
@@ -143,8 +206,14 @@
   thumbnail: /img/sculptures/wax-and-pins/swarm_01.jpg
   images:
     - url: /sculptures/wax-and-pins/harem_01.jpg
+      contain: true
+      caption: Harem 2013, 65cm x 25cm x 15cm, Copper Bull Ring, Violin Bow Hair, Wax, Steel Pins
     - url: /sculptures/wax-and-pins/nest_01.jpg
+      contain: true
+      caption: Nest 2013, Wax, Steel Pins
     - url: /sculptures/wax-and-pins/swarm_01.jpg
+      contain: true
+      caption: Swarm II 2011, Wax, Steel Pins
 
 
 
@@ -152,7 +221,16 @@
   thumbnail: /img/sculptures/sirens/siren_02.jpg
   images:
     - url: /sculptures/sirens/siren_01.jpg
+      contain: true
+      caption: Siren 2013, 290cm x 130cm x 40cm, Copper Bull Ring, Wire, Fish Hooks, Cotton Thread (private collection)
     - url: /sculptures/sirens/siren_02.jpg
+      caption: Siren 2013, Detail (private collection)
     - url: /sculptures/sirens/siren_03.jpg
+      contain: true
+      caption: Siren 2013, Installation View Danese NY (private collection)
     - url: /sculptures/sirens/siren_04.jpg
+      contain: true
+      caption: Siren II 2013, 115cm x 100cm x 25cm, Saddlery Thread, Leather Cord, Wire, Fish Hooks
     - url: /sculptures/sirens/siren_05.jpg
+      contain: true
+      caption: Siren 2013 Detail (private collection) 

@@ -1,12 +1,22 @@
 - title: heartbreak
   thumbnail: /img/small-works/heartbreak/heartbreak_01.jpg
+  description:
+    - Heartbreak 2017
+    - Reclaimed Military Barbed Wire,
+    - Glass Dome,
+    - Silk Velvet
   images:
     - url: /small-works/heartbreak/heartbreak_01.jpg
-      portrait: true
+      contain: true
 
 
 - title: field
   thumbnail: /img/small-works/field/field_01.jpg
+  description:
+    - Field,
+    - Reclaimed Military Barbed Wire,
+    - Composite Portland Stone,
+    - 2015
   images:
     - url: /small-works/field/field_01.jpg
     - url: /small-works/field/field_02.jpg
@@ -14,22 +24,39 @@
 
 - title: muster
   thumbnail: /img/small-works/muster/muster_01.jpg
+  description:
+    - Muster,
+    - American Oak,
+    - Clear-Cast Resin 50. Cal Browning Bullets,
+    - Edition of 6, 3 Available,
+    - 2016
   images:
     - url: /small-works/muster/muster_01.jpg
-      portrait: true
+      contain: true
 
 
 - title: little feast
   thumbnail: /img/small-works/little-feast/little-feast_01.jpg
+  description:
+    - Little Feast,
+    - Plastic Food Wrap,
+    - Cotton Thread,
+    - Steel Bracket,
+    - 2011
   images:
     - url: /small-works/little-feast/little-feast_01.jpg
-      portrait: true
+      contain: true
     - url: /small-works/little-feast/little-feast_02.jpg
-      portrait: true
+      contain: true
 
 
 - title: silver shell
   thumbnail: /img/small-works/silver-shell/silver-shell_01.jpg
+  description:
+    - Silver Shell multiple,
+    - Silver-Plated Mussel Shell lined with Silk Velvet,
+    - Boxed Signed and Mumbered, from an Edition of 250,
+    - Available though <a href="https://pallantbookshop.com/product/susie-macmurray-shell-multiple/" target="_blank">Pallant House Gallery Bookshop</a>
   images:
     - url: /small-works/silver-shell/silver-shell_01.jpg
-      portrait: true
+      contain: true
