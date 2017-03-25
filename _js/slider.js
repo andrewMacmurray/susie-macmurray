@@ -1,9 +1,8 @@
-var slider = $('.slider')
-var captions = $('.captions')
+const slider = $('.slider')
+const captions = $('.captions')
 
 slider.slick({
   fade: true,
-  waitForAnimate: false,
   prevArrow: '#previous',
   nextArrow: '#next',
   asNavFor: '.captions',
@@ -19,9 +18,7 @@ slider.slick({
   }
 })
 
-$(slider).imagesLoaded({ background: '[slide-img]' }, function () {
-  $(slider).removeClass('o-0')
-})
+$(slider).imagesLoaded({ background: '[slide-img]' }, () => $(slider).removeClass('o-0'))
 
 captions.slick({
   fade: true,

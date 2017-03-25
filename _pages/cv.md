@@ -29,12 +29,14 @@ Susie MacMurray, Recent Work (solo show) – Mall Galleries, London, UK
 Hinterland (solo show)- Danese/Corey, New York, USA  
 Susie MacMurray, A Retrospective (solo show) – Atkinson Gallery, Somerset, UK  
 Dangerous Beauty – Maier Museum, Virginia, USA  
-Bedazzled – Lehman College Art Gallery, Bronx NYC, USA
+Bedazzled – Lehman College Art Gallery, Bronx NYC, USA  
 Goodby To All That – Manchester Art Gallery  
 
 **2015**
 
-Watershed – Hall Place, Bexley, Kent
+Cloud - site specific commission - Winchester Great Hall  
+Halo - site specific commission - York Art Gallery  
+Watershed – Hall Place, Bexley, Kent  
 
 **2014**
 
