@@ -1,3 +1,16 @@
+- title: heartbreak drawings
+  thumbnail: /img/drawings/heartbreak-drawings/heartbreak-drawing_02.jpg
+  images:
+    - url: /drawings/heartbreak-drawings/heartbreak-drawing_01.jpg
+      contain: true
+      caption: Heartbreak (drawing), 2017
+    - url: /drawings/heartbreak-drawings/heartbreak-drawing_02.jpg
+      contain: true
+      caption: Heartbreak (drawing), 2017
+    - url: /drawings/heartbreak-drawings/heartbreak-drawing_03.jpg
+      contain: true
+      caption: Boat People (drawing), 2017
+
 - title: trench map
   thumbnail: /img/drawings/trench-map/trench-map_02.jpg
   images:
