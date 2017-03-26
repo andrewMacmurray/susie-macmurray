@@ -8,6 +8,8 @@
   images:
     - url: /small-works/heartbreak/heartbreak_01.jpg
       contain: true
+    - url: /small-works/heartbreak/heartbreak_02.jpg
+      contain: true
 
 
 - title: field

@@ -1,10 +1,13 @@
 import '../_css/index.css'
 import './slider.js'
 import './imgGrid.js'
+import { hamburgerListener } from './hamburger.js'
 
 const $ = window.jQuery
 
 $(document).ready(function () {
+  hamburgerListener()
+
   const slider = $('[slider-full-screen]')
   const slides = $('[slide-full-screen]')
   const logo = $('[logo]')

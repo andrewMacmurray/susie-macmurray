@@ -1,0 +1,5 @@
+@media (--breakpoint-short) {
+  .mw7-short {
+    max-width: var(--max-width-7);
+  }
+}

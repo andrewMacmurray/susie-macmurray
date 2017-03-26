@@ -1,0 +1,24 @@
+.open .upper {
+  transform: translateY(5px) rotateZ(315deg);
+}
+
+.open .middle {
+  opacity: 0;
+}
+
+.open .lower {
+  transform: translateY(-7px) rotateZ(-315deg);
+}
+
+
+.closed .upper {
+  transform: translateY(0) rotateZ(0);
+}
+
+.closed .middle {
+  opacity: 1;
+}
+
+.closed .lower {
+  transform: translateY(0) rotateZ(0);
+}

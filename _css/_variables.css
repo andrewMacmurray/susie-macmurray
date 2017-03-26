@@ -2,6 +2,9 @@
 @custom-media --breakpoint-medium screen and (min-width: 45em);
 @custom-media --breakpoint-large screen and (min-width: 60em);
 
+@custom-media --breakpoint-short screen and (min-height: 45em);
+@custom-media --breakpoint-tall screen and (min-height: 30em);
+
 :root {
 
   --sans-serif: 'Open Sans', Helvetica, Arial;
@@ -57,7 +60,7 @@
   --max-width-3: 4rem;
   --max-width-4: 8rem;
   --max-width-5: 16rem;
-  --max-width-6: 32rem;
+  --max-width-6: 35rem;
   --max-width-7: 48rem;
   --max-width-8: 64rem;
   --max-width-9: 80rem;

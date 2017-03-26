@@ -4,12 +4,10 @@
     <h1 class="tracked-mega ttu fw5 f4 f3-ns dib">Susie MacMurray</h1>
   </a>
 
-  <ul class="tr-m dib-m">
+  <ul menu class="tr-m dib-m">
     {% for title in site.data.nav-titles %}
 
-      {% if page.title == site.title %}
-        {% assign menuColor = " white" %}
-      {% elsif page.title == title.text %}
+      {% if page.title == title.text %}
         {% assign menuColor = " black" %}
       {% else %}
         {% assign menuColor = " gray" %}
@@ -22,5 +20,6 @@
 
     {% endfor %}
   </ul>
+  {% include hamburger.html %}
 
 </nav>
