@@ -21,15 +21,9 @@ layout: default
     <div class="slider o-0 z-4 relative transition">
       {% for img in currentProject.images %}
         <div>
-          {% if img.video %}
-            <div video slide-img imgdata="{{ site.url }}/img/{{ img.videoThumbnail }}" class="aspect-ratio aspect-ratio--16x9-m aspect-ratio--4x3">
-              <iframe src="{{ img.video }}" width="100%" class="h6 h7-ns h8-m" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            </div>
-          {% else %}
-            <div class="aspect-ratio aspect-ratio--16x9-m aspect-ratio--4x3">
-              <div slide-img imgdata="{{ site.url}}/img/{{ img.url }}" class="aspect-ratio--object bg-center {% if img.contain == true %}{{ 'contain' }}{% else %}{{ 'cover' }}{% endif %}" style="background-image: url({{ site.url }}/img/{{ img.url }})"></div>
-            </div>
-          {% endif %}
+          <div class="aspect-ratio aspect-ratio--16x9-m aspect-ratio--4x3">
+            <div slide-img imgdata="{{ site.url}}/img/{{ img.url }}" class="aspect-ratio--object bg-center {% if img.contain == true %}{{ 'contain' }}{% else %}{{ 'cover' }}{% endif %}" style="background-image: url({{ site.url }}/img/{{ img.url }})"></div>
+          </div>
         </div>
       {% endfor %}
     </div>

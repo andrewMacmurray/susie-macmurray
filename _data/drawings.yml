@@ -1,25 +1,25 @@
-- title: heartbreak drawings
-  thumbnail: /img/drawings/heartbreak-drawings/heartbreak-drawing_02.jpg
+- title: pen and wash drawings
+  thumbnail: /img/drawings/pen-and-wash-drawings/heartbreak-drawing_02.jpg
   images:
-    - url: /drawings/heartbreak-drawings/heartbreak-drawing_01.jpg
+    - url: /drawings/pen-and-wash-drawings/heartbreak-drawing_01.jpg
       contain: true
       caption: Heartbreak (drawing), 2017
-    - url: /drawings/heartbreak-drawings/heartbreak-drawing_02.jpg
+    - url: /drawings/pen-and-wash-drawings/heartbreak-drawing_02.jpg
       contain: true
       caption: Heartbreak (drawing), 2017
-    - url: /drawings/heartbreak-drawings/heartbreak-drawing_03.jpg
+    - url: /drawings/pen-and-wash-drawings/boat-people-drawing_01.jpg
       contain: true
       caption: Boat People (drawing), 2017
 
 - title: trench map
   thumbnail: /img/drawings/trench-map/trench-map_02.jpg
   images:
-    - url: /drawings/trench-map/trench-map_01.jpg
-      caption: Trench Map No 9, May 2015
-      contain: true
     - url: /drawings/trench-map/trench-map_02.jpg
       contain: true
       caption: Small Trench Map, October 2015
+    - url: /drawings/trench-map/trench-map_01.jpg
+      caption: Trench Map No 9, May 2015
+      contain: true
 
 
 
@@ -53,11 +53,14 @@
 
 
 - title: net curtain
-  thumbnail: /img/drawings/net-curtain/net-curtain_03.jpg
+  thumbnail: /img/drawings/net-curtain/net-curtain_02.jpg
   images:
-    - url: /drawings/net-curtain/repair_04.jpg
+    - url: /drawings/net-curtain/net-curtain_02.jpg
       contain: true
-      caption: Repair Series No 11, 2010, Pen on Paper, 56cm x 76cm
+      caption: Small Net Curtain Fragment No. 1 2009, 30cm x 42cm
+    - url: /drawings/net-curtain/net-curtain_01.jpg
+      contain: true
+      caption: Repair Series No. 10
 
 
 

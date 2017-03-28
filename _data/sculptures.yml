@@ -1,14 +1,27 @@
-- title: strange fruit
-  thumbnail: /img/sculptures/strange-fruit/strange-fruit_01.jpg
-  description:
-    - Strange Fruit 2017,
-    - 70cm x 140cm x 28cm,
-    - reclaimed military barbed wire,
-    - silk velvet
+- title: barbed wire and velvet
+  thumbnail: /img/sculptures/barbed-wire-and-velvet/strange-fruit_04.jpg
   images:
-    - url: /sculptures/strange-fruit/strange-fruit_01.jpg
+    - url: /sculptures/barbed-wire-and-velvet/strange-fruit_01.jpg
       contain: true
-
+      caption: Strange Fruit 2017, 70cm x 140cm x 28cm, Reclaimed Military Barbed Wire, Silk Velvet
+    - url: /sculptures/barbed-wire-and-velvet/strange-fruit_02.jpg
+      contain: true
+      caption: Strange Fruit 2017, 70cm x 140cm x 28cm, Reclaimed Military Barbed Wire, Silk Velvet
+    - url: /sculptures/barbed-wire-and-velvet/strange-fruit_03.jpg
+      contain: true
+      caption: Strange Fruit 2017, 70cm x 140cm x 28cm, Reclaimed Military Barbed Wire, Silk Velvet
+    - url: /sculptures/barbed-wire-and-velvet/strange-fruit_04.jpg
+      contain: true
+      caption: Strange Fruit 2017, 70cm x 140cm x 28cm, Reclaimed Military Barbed Wire, Silk Velvet
+    - url: /sculptures/barbed-wire-and-velvet/strange-fruit_05.jpg
+      contain: true
+      caption: Strange Fruit 2017, 70cm x 140cm x 28cm, Reclaimed Military Barbed Wire, Silk Velvet
+    - url: /sculptures/barbed-wire-and-velvet/heartbreak_01.jpg
+      contain: true
+      caption: Heartbreak 2017, Reclaimed Military Barbed Wire, Glass Dome, Silk Velvet
+    - url: /sculptures/barbed-wire-and-velvet/boat-people_01.jpg
+      contain: true
+      caption: Boat People 2017, Reclaimed Military Barbed Wire, Silk Velvet, Found Wood
 
 
 - title: pandora
@@ -29,55 +42,35 @@
     - url: /sculptures/pandora/pandora_06.jpg
 
 
-- title: boat people
-  thumbnail: /img/sculptures/boat-people/boat-people_01.jpg
-  description:
-    - Boat People 2017,
-    - Reclaimed Military Barbed Wire,
-    - Silk Velvet,
-    - Found Wood
-  images:
-    - url: /sculptures/boat-people/boat-people_01.jpg
 
-
-- title: hold the line
-  thumbnail: /img/sculptures/hold-the-line/hold-the-line_02.jpg
-  description:
-    - Reclaimed Military Barbed Wire,
-    - Painted MDF,
-    - Wall mounted,
-    - 2016
+- title: barbed wire
+  thumbnail: /img/sculptures/barbed-wire/hold-the-line_03.jpg
   images:
-    - url: /sculptures/hold-the-line/hold-the-line_02.jpg
-    - url: /sculptures/hold-the-line/hold-the-line_01.jpg
+    - url: /sculptures/barbed-wire/hold-the-line_02.jpg
+      caption: Hold the Line, Reclaimed Military Barbed Wire, Painted MDF, Wall mounted, 2016
+    - url: /sculptures/barbed-wire/hold-the-line_01.jpg
       contain: true
-    - url: /sculptures/hold-the-line/hold-the-line_03.jpg
-
-
-
-- title: palisade
-  thumbnail: /img/sculptures/palisade/palisade_03.jpg
-  description:
-    - Reclaimed Military Barbed Wire,
-    - Composite Portland Stone,
-    - 2016
-  images:
+      caption: Hold the Line, Reclaimed Military Barbed Wire, Painted MDF, Wall mounted, 2016
+    - url: /sculptures/barbed-wire/hold-the-line_03.jpg
+      caption: Hold the Line, Reclaimed Military Barbed Wire, Painted MDF, Wall mounted, 2016
     - url: /sculptures/palisade/palisade_01.jpg
+      caption: Palisade, Reclaimed Military Barbed Wire, Composite Portland Stone, 2016
     - url: /sculptures/palisade/palisade_02.jpg
+      caption: Palisade, Reclaimed Military Barbed Wire, Composite Portland Stone, 2016
     - url: /sculptures/palisade/palisade_03.jpg
+      caption: Palisade, Reclaimed Military Barbed Wire, Composite Portland Stone, 2016
     - url: /sculptures/palisade/palisade_04.jpg
-    - url: /sculptures/palisade/palisade_05.jpg
-    - url: /sculptures/palisade/palisade_06.jpg
-
-
-- title: snares of enemies
-  thumbnail: /img/sculptures/snares-of-enemies/snares-of-enemies_01.jpg
-  description:
-    - Reclaimed Military Barbed Wire,
-    - Composite Portland Stone,
-    - 2016
-  images:
-    - url: /sculptures/snares-of-enemies/snares-of-enemies_01.jpg
+      contain: true
+      caption: Palisade, Reclaimed Military Barbed Wire, Composite Portland Stone, 2016
+    - url: /sculptures/barbed-wire/snares-of-enemies_01.jpg
+      contain: true
+      caption: Snares of Enemies, Reclaimed Military Barbed Wire, Composite Portland Stone, 2016
+    - url: /sculptures/barbed-wire/host_01.jpg
+      contain: true
+      caption: Host, Reclaimed Military Barbed Wire, Composite Portland Stone, 2016
+    - url: /sculptures/barbed-wire/host_02.jpg
+      contain: true
+      caption: Host, Reclaimed Military Barbed Wire, Composite Portland Stone, 2016
 
 
 
@@ -90,23 +83,6 @@
       caption: Orphan 2014, Detail
     - url: /sculptures/orphan/orphan_03.jpg
       caption: Orphan 2014, Black Annealed Wire, Bull's Nose Ring
-
-
-
-- title: host
-  thumbnail: /img/sculptures/host/host_02.jpg
-  description:
-    - Reclaimed Military Barbed Wire,
-    - Composite Portland Stone,
-    - 2016
-  images:
-    - url: /sculptures/host/host_01.jpg
-    - url: /sculptures/host/host_02.jpg
-    - url: /sculptures/host/host_03.jpg
-    - url: /sculptures/host/host_04.jpg
-    - url: /sculptures/host/host_05.jpg
-    - url: /sculptures/host/host_06.jpg
-    - url: /sculptures/host/host_07.jpg
 
 
 
@@ -140,6 +116,7 @@
     - 2016
   images:
     - url: /sculptures/requiem/requiem_01.jpg
+      contain: true
     - url: /sculptures/requiem/requiem_02.jpg
     - url: /sculptures/requiem/requiem_03.jpg
 

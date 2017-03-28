@@ -1,20 +1,14 @@
-- url: sculptures/pandora/pandora_02.jpg
-  shade: dark
-
-- url: sculptures/hold-the-line/hold-the-line_02.jpg
-  shade: light
-
-- url: sculptures/hold-the-line/hold-the-line_03.jpg
-  shade: light
-
 - url: homepage/siblings_01.jpg
   shade: light
 
-- url: homepage/wax_01.jpg
+- url: sculptures/pandora/pandora_02.jpg
+  shade: dark
+
+- url: sculptures/barbed-wire/hold-the-line_03.jpg
   shade: light
 
-- url: homepage/widow_01.jpg
-  shade: dark
+- url: homepage/pods_01.jpg
+  shade: light
 
 - url: homepage/medusa_01.jpg
   shade: light
