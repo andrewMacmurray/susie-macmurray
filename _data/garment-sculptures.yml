@@ -70,8 +70,6 @@
     -
     - <a href="http://artwisecurators.com/projects/wwf-pandamonium-2/" target="_blank">artwisecurators pandamonium</a>
   images:
-    - video: https://www.youtube.com/embed/PSlfWxEEcTg
-      videoThumbnail: /garment-sculptures/icarus/icarus_01.jpg
     - url: /garment-sculptures/icarus/icarus_01.jpg
       contain: true
     - url: /garment-sculptures/icarus/icarus_02.jpg
