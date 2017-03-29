@@ -1,0 +1,7 @@
+.w-32 { width: 32%; }
+.w-47 { width: 47%; }
+
+@media (--breakpoint-not-small) {
+  .w-32-ns { width: 32%; }
+  .w-47-ns { width: 47%; }
+}

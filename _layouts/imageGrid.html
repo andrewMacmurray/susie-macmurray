@@ -11,7 +11,7 @@ layout: default
 
     {% endif %}
   {% endfor %}
-  <div img-grid class="o-0 transition cf">
+  <div img-grid class="o-0 transition flex flex-wrap justify-between">
     {% for item in site.data[page.dataSource] %}
 
       {% assign urlTitle = item.title | split: " " | join: "-" %}
@@ -22,8 +22,8 @@ layout: default
         {% assign baseUrl = page.permalink %}
       {% endif %}
 
-      <a class="w-50 w-33-ns fl" href="{{ site.url}}{{ baseUrl }}{{ urlTitle }}">
-        <div class="w-100 ph2">
+      <a class="w-47 w-32-ns" href="{{ site.url}}{{ baseUrl }}{{ urlTitle }}">
+        <div class="w-100">
           <div class="aspect-ratio aspect-ratio--16x9-m aspect-ratio--3x4 dim">
             <div bg-image class="bg-center cover aspect-ratio--object" style="background-image: url({{ site.url }}{{ item.thumbnail }})"></div>
           </div>

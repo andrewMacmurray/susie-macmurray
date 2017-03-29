@@ -5,6 +5,7 @@ import { hamburgerListener } from './hamburger.js'
 
 const $ = window.jQuery
 
+
 $(document).ready(function () {
   hamburgerListener()
 
