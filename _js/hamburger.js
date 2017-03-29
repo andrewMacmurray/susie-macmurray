@@ -10,6 +10,7 @@ function toggle () {
     : open()
 }
 
+
 function open () {
   const $hamburger = $('[hamburger]')
   const $menu = $('[mobile-menu]')

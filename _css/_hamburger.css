@@ -1,5 +1,5 @@
 .open .upper {
-  transform: translateY(5px) rotateZ(315deg);
+  transform: translateY(5px) rotateZ(135deg);
 }
 
 .open .middle {
@@ -7,7 +7,7 @@
 }
 
 .open .lower {
-  transform: translateY(-7px) rotateZ(-315deg);
+  transform: translateY(-7px) rotateZ(-135deg);
 }
 
 

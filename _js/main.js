@@ -12,20 +12,21 @@ $(document).ready(function () {
   const slider = $('[slider-full-screen]')
   const slides = $('[slide-full-screen]')
   const logo = $('[logo]')
+  const hamburger = $('[hamburger]').children()
+
   const menuItems = $('[menu-item]')
 
   const fadeIn = (i) => $(slides[i]).addClass('active')
   const fadeOut = (i) => $(slides[i]).removeClass('active')
 
-  slides
-
-  const menuColor = (method, logo, menuItems) => (color) => {
+  const menuColor = (method, logo, hamburger, menuItems) => (color) => {
     logo[method](color)
+    hamburger.each((i, item) => $(item)[method](`bg-${color}`))
     menuItems.each((i, item) => $(item)[method](color))
   }
 
-  const addMenuColor = menuColor('addClass', logo, menuItems)
-  const removeMenuColor = menuColor('removeClass', logo, menuItems)
+  const addMenuColor = menuColor('addClass', logo, hamburger, menuItems)
+  const removeMenuColor = menuColor('removeClass', logo, hamburger, menuItems)
 
   let currentSlide = 0
   const totalSlides = slides.length

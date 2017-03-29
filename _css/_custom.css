@@ -39,3 +39,7 @@ li {
 .transition {
   transition: 0.4s ease;
 }
+
+.transition-bg {
+  transition: background-color 0.4s ease;
+}
