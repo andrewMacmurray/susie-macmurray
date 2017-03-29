@@ -12,7 +12,7 @@ function toggle () {
 
 function open () {
   const $hamburger = $('[hamburger]')
-  const $menu = $('[menu]')
+  const $menu = $('[mobile-menu]')
 
   $hamburger.addClass('open')
   $hamburger.removeClass('closed')
@@ -22,7 +22,7 @@ function open () {
 
 function close () {
   const $hamburger = $('[hamburger]')
-  const $menu = $('[menu]')
+  const $menu = $('[mobile-menu]')
 
   $hamburger.removeClass('open')
   $hamburger.addClass('closed')

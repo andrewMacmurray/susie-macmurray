@@ -4,7 +4,23 @@
     <h1 class="tracked-mega ttu fw5 f4 f3-ns dib">Susie MacMurray</h1>
   </a>
 
-  <ul menu class="tr-m dib-m">
+  <ul desktop-menu class="dn tr dib-m">
+    {% for title in site.data.nav-titles %}
+
+      {% if page.title == title.text %}
+        {% assign menuColor = " black" %}
+      {% else %}
+        {% assign menuColor = " gray" %}
+      {% endif %}
+
+      <a menu-item class="{{ 'dib-m no-underline fw4 mh2-m transition' | append: menuColor }}"
+         href="{{ site.url }}{{ title.url }}">
+        <p class="ma0 mt3-m">{{title.text}}</p>
+      </a>
+
+    {% endfor %}
+  </ul>
+  <ul mobile-menu class="dn dn-m mt0">
     {% for title in site.data.nav-titles %}
 
       {% if page.title == title.text %}
