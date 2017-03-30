@@ -21,8 +21,9 @@ layout: default
     <div class="slider o-0 z-4 relative transition">
       {% for img in currentProject.images %}
         <div>
+          {% assign imgTitle = currentProject.description | join: ' ' %}
           <div class="aspect-ratio aspect-ratio--16x9-m aspect-ratio--4x3">
-            <div slide-img imgdata="{{ site.url}}/img/{{ img.url }}" class="aspect-ratio--object bg-center {% if img.contain == true %}{{ 'contain' }}{% else %}{{ 'cover' }}{% endif %}" style="background-image: url({{ site.url }}/img/{{ img.url }})"></div>
+            <div slide-img title="{% if img.caption %}{{ img.caption }}{% else %}{{ imgTitle }}{% endif %}" imgdata="{{ site.url}}/img/{{ img.url }}" class="aspect-ratio--object bg-center {% if img.contain == true %}{{ 'contain' }}{% else %}{{ 'cover' }}{% endif %}" style="background-image: url({{ site.url }}/img/{{ img.url }})"></div>
           </div>
         </div>
       {% endfor %}
