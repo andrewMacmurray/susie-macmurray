@@ -32,5 +32,10 @@ layout: default
       </a>
 
     {% endfor %}
+    {% assign oddIndex = site.data[page.dataSource] | size | modulo : 3 %}
+    {% if oddIndex == 2 %}
+      <div class="w-32-ns dn db-ns"></div>
+    {% endif %}
+
   </div>
 </div>
