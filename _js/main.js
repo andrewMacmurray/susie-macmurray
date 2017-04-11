@@ -2,8 +2,14 @@ import '../_css/index.css'
 import './slider.js'
 import './imgGrid.js'
 import { hamburgerListener } from './hamburger.js'
+import { shuffle } from './utils.js'
 
 const $ = window.jQuery
+
+function randomiseSlides ($slider, $slides) {
+  $slider.empty()
+  shuffle($slides).map((_, el) => $slider.append(el))
+}
 
 
 $(document).ready(function () {
@@ -13,7 +19,6 @@ $(document).ready(function () {
   const slides = $('[slide-full-screen]')
   const logo = $('[logo]')
   const hamburger = $('[hamburger]').children()
-
   const menuItems = $('[menu-item]')
 
   const fadeIn = (i) => $(slides[i]).addClass('active')
@@ -27,6 +32,8 @@ $(document).ready(function () {
 
   const addMenuColor = menuColor('addClass', logo, hamburger, menuItems)
   const removeMenuColor = menuColor('removeClass', logo, hamburger, menuItems)
+
+  randomiseSlides(slider, slides)
 
   let currentSlide = 0
   const totalSlides = slides.length
