@@ -9,13 +9,15 @@
 
       {% if page.title == title.text %}
         {% assign menuColor = " black" %}
+      {% elsif page.title == site.title %}
+        {% assign menuColor = " black" %}
       {% else %}
         {% assign menuColor = " gray" %}
       {% endif %}
 
       <a menu-item class="{{ 'dib-m no-underline fw4 mh2-m transition' | append: menuColor }}"
          href="{{ site.url }}{{ title.url }}">
-        <p class="ma0 mt3-m">{{title.text}}</p>
+        <p class="ma0 f5-m f6-ns mt2-m">{{title.text}}</p>
       </a>
 
     {% endfor %}
