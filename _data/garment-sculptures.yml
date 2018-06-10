@@ -1,17 +1,23 @@
 - title: medusa
-  thumbnail: /img/garment-sculptures/medusa/medusa_04.jpg
+  thumbnail: /img/garment-sculptures/medusa/medusa_07.jpg
   images:
+    - url: /garment-sculptures/medusa/medusa_03.jpg
+      contain: true
+      caption: Medusa 2014, handmade copper chainmail installation view, St Albans Museum & Art Gallery 2018
+    - url: /garment-sculptures/medusa/medusa_04.jpg
+      contain: true
+      caption: Medusa 2014, handmade copper chainmail installation view, St Albans Museum & Art Gallery 2018
+    - url: /garment-sculptures/medusa/medusa_05.jpg
+      contain: true
+      caption: Medusa 2014, detail
     - url: /garment-sculptures/medusa/medusa_01.jpg
       contain: true
       caption: Medusa 2014, Handmade Copper Chainmail
     - url: /garment-sculptures/medusa/medusa_02.jpg
       caption: Medusa 2014, Detail
-    - url: /garment-sculptures/medusa/medusa_03.jpg
+    - url: /garment-sculptures/medusa/medusa_06.jpg
       contain: true
-      caption: Medusa 2014, Handmade Copper Chainmail
-    - url: /garment-sculptures/medusa/medusa_04.jpg
-      contain: true
-      caption: Medusa 2014, Detail
+      caption: Medusa 2014, handmade copper chainmail, installation view, Akbank Sanat, Istanbul 2018
     - url: /garment-sculptures/medusa/hatchling_01.jpg
       contain: true
       caption: Hatchling 2014, Handmade Copper Chainmail

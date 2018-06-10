@@ -29,6 +29,6 @@
     "postcss-import": "^9.1.0"
   },
   "dependencies": {
-    "tachyons-custom": "^4.5.4"
+    "tachyons-custom": "4.5.4"
   }
 }

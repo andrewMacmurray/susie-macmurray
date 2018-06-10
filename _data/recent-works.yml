@@ -1,15 +1,31 @@
+- title: doubt
+  category: site-specific-installations
+  thumbnail: /img/site-specific-installations/doubt/doubt_01.jpg
+
 - title: barbed wire and velvet
   category: sculptures
-  thumbnail: /img/sculptures/barbed-wire-and-velvet/strange-fruit_04.jpg
+  thumbnail: /img/sculptures/barbed-wire-and-velvet/strange-fruit_06.jpg
 
-- title: pen and wash drawings
-  category: drawings
-  thumbnail: /img/drawings/pen-and-wash-drawings/heartbreak-drawing_02.jpg
+- title: medusa
+  category: sculptures
+  thumbnail: /img/garment-sculptures/medusa/medusa_07.jpg
 
 - title: pandora
   category: sculptures
-  thumbnail: /img/sculptures/pandora/pandora_04.jpg
+  thumbnail: /img/sculptures/pandora/pandora_05.jpg
+
+- title: sirens
+  category: sculptures
+  thumbnail: /img/sculptures/sirens/siren_07.jpg
+
+- title: chainmail
+  category: sculptures
+  thumbnail: /img/sculptures/chainmail/anaconda_04.jpg
 
 - title: barbed wire
   category: sculptures
   thumbnail: /img/sculptures/barbed-wire/hold-the-line_04.jpg
+
+- title: gauze bandage
+  category: drawings
+  thumbnail: /img/drawings/gauze-bandage/gauze-bandage_11.jpg

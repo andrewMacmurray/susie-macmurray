@@ -34,8 +34,9 @@ e-mail: [carol@danese.com](carol@danese.com)
 **Photo Credits**
 
 Ben Blackall: 2004 - Present  
-Matthew Andrews, Julia Conway: 2015  
+Matthew Andrews: 2010 - Present  
 Steve Hickey: 2015  
+Aiden Cusak: 2018  
 
 
 e-mail: [susie@susiemacmurray.co.uk](mailto:susie@susiemacmurray.co.uk)

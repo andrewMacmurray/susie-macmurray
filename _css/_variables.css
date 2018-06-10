@@ -19,6 +19,11 @@
   --font-size-4: 1.15rem;
   --font-size-5: 0.975rem;
   --font-size-6: .875rem;
+  --font-size-7: .75rem;
+
+  --measure: 30em;
+  --measure-narrow: 20em;
+  --measure-wide: 34em;
 
   --letter-spacing-tight:-.05em;
   --letter-spacing-1:.1em;

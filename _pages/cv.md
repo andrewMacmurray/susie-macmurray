@@ -4,21 +4,22 @@ title: cv
 permalink: /cv
 ---
 
-**Awards**
 
-Shortlisted, NMWA – Women to Watch 2012, Washington DC  
-Nominated, Northern Art Prize 2011  
-British Council travel grant 2010  
-Professional Development Award, The Arts Council England, 2008  
-Nominated, Northern Art Prize, 2007  
-Abbey Harris Mural Fund Award, 2006  
-Shortlisted, Jerwood Drawing Prize. 2005  
-Research and Development Award, The Arts Council Eng land. 2004  
-Shortlisted, Bury St Edmunds Art Gallery, Textiles on Site Commission 2004  
-Shortlisted, Crosby Homes Art Prize, Manchester Art Gallery August 2003  
+**Education**
 
+2000-2001 MA Fine Art. Manchester Metropolitan University  
+1997-2000 BA Sculpture. Manchester Metropolitan University  
+1996-1997 Foundation in Art and Design. Manchester College of Arts & Technology  
+1982-1983 National Centre for Orchestral Studies, Goldsmiths, London  
+1979-1982 Fellowship, Trinity College of Music, London  
 
 **Selected Solo and Group Exhibitions**
+
+**2018**
+
+Strange Fruit (solo show) – Akbank Sanat, Istanbul Turkey  
+Doubt – site specific commission – Southwark Cathedral, London, UK  
+Masquerade (solo show) – St Albans Museum and Art Gallery, UK  
 
 **2017**
 
@@ -157,10 +158,16 @@ Ladies Only – Liverpool Biennial, Collect Gallery, Brundel St Warehouse, Liver
 All Colours Will Agree In the Dark – Cornerhouse, Manchester  
 
 
-**Education**
+**Awards**
 
-2000-2001 MA Fine Art. Manchester Metropolitan University  
-1997-2000 BA Sculpture. Manchester Metropolitan University  
-1996-1997 Foundation in Art and Design. Manchester College of Arts & Technology  
-1982-1983 National Centre for Orchestral Studies, Goldsmiths, London  
-1979-1982 Fellowship, Trinity College of Music, London  
+RIBA Regent Street Windows 2016 – People Choice award with Knox Bhavan Architects & Molton Brown
+Shortlisted, NMWA – Women to Watch 2012, Washington DC  
+Nominated, Northern Art Prize 2011  
+British Council travel grant 2010  
+Professional Development Award, The Arts Council England, 2008  
+Nominated, Northern Art Prize, 2007  
+Abbey Harris Mural Fund Award, 2006  
+Shortlisted, Jerwood Drawing Prize. 2005  
+Research and Development Award, The Arts Council Eng land. 2004  
+Shortlisted, Bury St Edmunds Art Gallery, Textiles on Site Commission 2004  
+Shortlisted, Crosby Homes Art Prize, Manchester Art Gallery August 2003  
