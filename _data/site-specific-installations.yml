@@ -17,6 +17,23 @@
     - url: /site-specific-installations/doubt/doubt_07.jpg
       contain: true
 
+- title: masquerade
+  thumbnail: /img/site-specific-installations/masquerade/masquerade_04.jpg
+  description:
+    - Site Specific Installation
+    - St Albans Museum and Art Gallery  2018
+    - silk velvet, raw black wire
+  images:
+    - url: /site-specific-installations/masquerade/masquerade_01.jpg
+      contain: true
+    - url: /site-specific-installations/masquerade/masquerade_02.jpg
+    - url: /site-specific-installations/masquerade/masquerade_03.jpg
+      contain: true
+    - url: /site-specific-installations/masquerade/masquerade_04.jpg
+    - url: /site-specific-installations/masquerade/masquerade_05.jpg
+      contain: true
+    - url: /site-specific-installations/masquerade/masquerade_06.jpg
+      contain: true
 
 - title: cloud
   thumbnail: /img/site-specific-installations/cloud/cloud_04.jpg

@@ -160,7 +160,7 @@ All Colours Will Agree In the Dark – Cornerhouse, Manchester
 
 **Awards**
 
-RIBA Regent Street Windows 2016 – People Choice award with Knox Bhavan Architects & Molton Brown
+RIBA Regent Street Windows 2016 – People Choice award with Knox Bhavan Architects & Molton Brown  
 Shortlisted, NMWA – Women to Watch 2012, Washington DC  
 Nominated, Northern Art Prize 2011  
 British Council travel grant 2010  
