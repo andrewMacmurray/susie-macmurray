@@ -35,13 +35,13 @@ layout: default
 
         {% if img.caption != "" %}
 
-          {% assign captionLines = img.caption | split: ", " %}
+          {% assign captionLines = img.caption | split: "; " %}
           {% assign last = captionLines | last %}
           <p>
             {% for captionLine in captionLines %}
               {% if  captionLine != last %}
 
-                {{ captionLine }},<br>
+                {{ captionLine }}<br>
 
               {% else %}
 

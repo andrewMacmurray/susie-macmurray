@@ -3,32 +3,32 @@
   images:
     - url: /garment-sculptures/medusa/medusa_03.jpg
       contain: true
-      caption: Medusa 2014, handmade copper chainmail installation view, St Albans Museum & Art Gallery 2018
+      caption: Medusa 2014; handmade copper chainmail installation view; St Albans Museum & Art Gallery 2018
     - url: /garment-sculptures/medusa/medusa_04.jpg
       contain: true
-      caption: Medusa 2014, handmade copper chainmail installation view, St Albans Museum & Art Gallery 2018
+      caption: Medusa 2014; handmade copper chainmail installation view; St Albans Museum & Art Gallery 2018
     - url: /garment-sculptures/medusa/medusa_05.jpg
       contain: true
-      caption: Medusa 2014, detail
+      caption: Medusa 2014; detail
     - url: /garment-sculptures/medusa/medusa_01.jpg
       contain: true
-      caption: Medusa 2014, Handmade Copper Chainmail
+      caption: Medusa 2014; Handmade Copper Chainmail
     - url: /garment-sculptures/medusa/medusa_02.jpg
-      caption: Medusa 2014, Detail
+      caption: Medusa 2014; Detail
     - url: /garment-sculptures/medusa/medusa_06.jpg
       contain: true
-      caption: Medusa 2014, handmade copper chainmail, installation view, Akbank Sanat, Istanbul 2018
+      caption: Medusa 2014; handmade copper chainmail; installation view; Akbank Sanat; Istanbul 2018
     - url: /garment-sculptures/medusa/hatchling_01.jpg
       contain: true
-      caption: Hatchling 2014, Handmade Copper Chainmail
+      caption: Hatchling 2014; Handmade Copper Chainmail
 
 
 - title: widow
   thumbnail: /img/garment-sculptures/widow/widow_04.jpg
   description:
-    - Widow 2009,
-    - Black Nappa Leather,
-    - 43 Kg Adamantine Dressmakers Pins,
+    - Widow 2009
+    - Black Nappa Leather
+    - 43 Kg Adamantine Dressmakers Pins
     - Tailors Dummy (Manchester Art Gallery collection)
     -
     - <a href="http://www.bbc.co.uk/programmes/p00cgf1x" target="_blank">interview on womans hour</a>
@@ -48,8 +48,8 @@
 - title: gladrags
   thumbnail: /img/garment-sculptures/gladrags/gladrags_02.jpg
   description:
-    - Gladrags 2002,
-    - 10,000 Fuschia Pink Balloons,
+    - Gladrags 2002
+    - 10,000 Fuschia Pink Balloons
     - Rug Underlay (Collection of Pallant House Gallery, Chichester)
   images:
     - url: /garment-sculptures/gladrags/gladrags_01.jpg
@@ -64,10 +64,10 @@
 - title: icarus
   thumbnail: /img/garment-sculptures/icarus/icarus_01.jpg
   description:
-    - Icarus 2012,
-    - Ostrich Feathers,
-    - Bird Netting,
-    - Flight Harness,
+    - Icarus 2012
+    - Ostrich Feathers
+    - Bird Netting
+    - Flight Harness
     - Copper Wire (private collection)
     -
     - WWF commissioned a collection of works from leading artists, designers and architects for Padamonium in Hyde Park. The pieces were intended to inspire awareness of WWF’s breadth of work.
@@ -88,9 +88,9 @@
 - title: a mixture of frailties
   thumbnail: /img/garment-sculptures/mixture-of-frailties/mixture-of-frailties_01.jpg
   description:
-    - A Mixture of Frailties 2004,
-    - 1400 Household Gloves turned Inside Out,
-    - Calico,
+    - A Mixture of Frailties 2004
+    - 1400 Household Gloves turned Inside Out
+    - Calico
     - Tailors Dummy (private collection)
   images:
     - url: /garment-sculptures/mixture-of-frailties/mixture-of-frailties_01.jpg
@@ -105,8 +105,8 @@
 - title: icon
   thumbnail: /img/garment-sculptures/icon/icon_05.jpg
   description:
-    - Icon 2002,
-    - 15,000 Metallic Blue Balloons,
+    - Icon 2002
+    - 15,000 Metallic Blue Balloons
     - Rug Underlay
   images:
     - url: /garment-sculptures/icon/icon_01.jpg
