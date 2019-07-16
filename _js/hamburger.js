@@ -1,40 +1,37 @@
-const $ = window.jQuery
+const $ = window.jQuery;
 
-function isOpen () {
-  return $('[hamburger]').hasClass('open')
+function isOpen() {
+  return $("[hamburger]").hasClass("open");
 }
 
-function toggle () {
-  isOpen()
-    ? close()
-    : open()
+function toggle() {
+  isOpen() ? close() : open();
 }
 
+function open() {
+  const $hamburger = $("[hamburger]");
+  const $menu = $("[mobile-menu]");
 
-function open () {
-  const $hamburger = $('[hamburger]')
-  const $menu = $('[mobile-menu]')
-
-  $hamburger.addClass('open')
-  $hamburger.removeClass('closed')
-  $menu.addClass('db')
-  $menu.removeClass('dn')
+  $hamburger.addClass("open");
+  $hamburger.removeClass("closed");
+  $menu.addClass("db");
+  $menu.removeClass("dn");
 }
 
-function close () {
-  const $hamburger = $('[hamburger]')
-  const $menu = $('[mobile-menu]')
+function close() {
+  const $hamburger = $("[hamburger]");
+  const $menu = $("[mobile-menu]");
 
-  $hamburger.removeClass('open')
-  $hamburger.addClass('closed')
-  $menu.addClass('dn')
-  $menu.removeClass('db')
+  $hamburger.removeClass("open");
+  $hamburger.addClass("closed");
+  $menu.addClass("dn");
+  $menu.removeClass("db");
 }
 
-function hamburgerListener () {
-  $('[hamburger]').on('click', toggle)
+function hamburgerListener() {
+  $("[hamburger]").on("click", toggle);
 }
 
 module.exports = {
   hamburgerListener
-}
+};
