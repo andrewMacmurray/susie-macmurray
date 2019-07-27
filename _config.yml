@@ -24,19 +24,19 @@ collections:
     permalink: /published-materials/:name
   sculptures:
     output: true
-    permalink: /images/:collection/:name
+    permalink: images/:collection/:name
   small-works:
     output: true
-    permalink: /images/:collection/:name
+    permalink: images/:collection/:name
   drawings:
     output: true
-    permalink: /images/:collection/:name
+    permalink: images/:collection/:name
   garment-sculptures:
     output: true
-    permalink: /images/:collection/:name
+    permalink: images/:collection/:name
   site-specific-installations:
     output: true
-    permalink: /images/:collection/:name
+    permalink: images/:collection/:name
   recent-works:
     output: false
 

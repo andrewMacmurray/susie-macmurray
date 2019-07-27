@@ -1,20 +1,20 @@
 <div img-grid class="o-0 transition flex flex-wrap justify-between">
-{% assign collection = include.collection | sort: 'id' %}
-{% for item in include.collection %}
-    <a class="w-47 w-32-ns" href="{{ site.url }}/images/{{ item.category }}/{{ item.title | split: ' ' | join: '-' }}">
-    <div class="w-100">
-        <div class="aspect-ratio aspect-ratio--16x9-m aspect-ratio--3x4 dim">
-        <div
-            bg-image
-            class="bg-center cover aspect-ratio--object"
-            style="background-image: url({{ site.url }}{{ item.thumbnail }})"></div>
-        </div>
-        <p class="fw4">{{ item.title }}</p>
-    </div>
-    </a>
+{% assign collection = include.collection | sort: 'order' %}
+{% for item in collection %}
+  <a class="w-47 w-32-ns" href="{{ site.url }}{{ item.url }}">
+   <div class="w-100">
+     <div class="aspect-ratio aspect-ratio--16x9-m aspect-ratio--3x4 dim">
+     <div
+       bg-image
+       class="bg-center cover aspect-ratio--object"
+       style="background-image: url({{ site.url }}{{ item.thumbnail }})"></div>
+     </div>
+     <p class="fw4">{{ item.title }}</p>
+   </div>
+  </a>
 {% endfor %}
 {% assign oddIndex = include.collection | size | modulo : 3 %}
 {% if oddIndex == 2 %}
-    <div class="w-32-ns dn db-ns"></div>
+  <div class="w-32-ns dn db-ns"></div>
 {% endif %}
 </div>
