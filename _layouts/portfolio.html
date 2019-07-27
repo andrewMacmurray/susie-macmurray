@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="flex justify-between mh3 mh4-m pa1">
-  <a class="fw4 f6 f5-m gray" href="{{ site.url }}/images/{{ page.collection }}">back to {{ page.collection | split: '-' | join: ' ' }}</a>
+  <a class="fw4 f6 f5-m gray" href="/images/{{ page.collection }}">back to {{ page.collection | split: '-' | join: ' ' }}</a>
   <h2 class="fw4 f6 f5-m mh2-m mt0">{{ page.title }}</h2>
 </div>
 <div class="mw6 mw7-short center">
@@ -14,9 +14,9 @@ layout: default
         <div>
           {% assign imgTitle = page.description | join: ' ' | strip_html %}
           {% if img.external_directory %}
-            {% assign imgUrl = site.url | append: "/img/" | append: img.url %}
+            {% assign imgUrl = "/img/" | append: img.url %}
           {% else %}
-            {% assign imgUrl = site.url | append: "/img/" | append: page.collection | append: "/" | append: img.url %}
+            {% assign imgUrl = "/img/" | append: page.collection | append: "/" | append: img.url %}
           {% endif %}
           <div class="aspect-ratio aspect-ratio--16x9-m aspect-ratio--4x3">
             <div
