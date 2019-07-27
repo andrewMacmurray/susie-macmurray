@@ -36,3 +36,35 @@ collections:
     permalink: /images/:collection/:name
   recent-works:
     output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: "categories"
+    values:
+      layout: "category"
+  - scope:
+      path: ""
+      type: "drawings"
+    values:
+      layout: "portfolio"
+  - scope:
+      path: ""
+      type: "sculptures"
+    values:
+      layout: "portfolio"
+  - scope:
+      path: ""
+      type: "site-specific-installations"
+    values:
+      layout: "portfolio"
+  - scope:
+      path: ""
+      type: "garment-sculptures"
+    values:
+      layout: "portfolio"
+  - scope:
+      path: ""
+      type: "small-works"
+    values:
+      layout: "portfolio"

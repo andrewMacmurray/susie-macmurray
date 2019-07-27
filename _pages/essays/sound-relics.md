@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: text
 title: sound relics
 permalink: /published-materials/sound-relics
 ---

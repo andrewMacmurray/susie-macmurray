@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: text
 title: echo
 permalink: /published-materials/echo
 ---

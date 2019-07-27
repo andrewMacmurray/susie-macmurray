@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: text
 title: shell
 permalink: /published-materials/shell
 ---

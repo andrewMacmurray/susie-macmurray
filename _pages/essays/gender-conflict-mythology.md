@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: text
 title: gender conflict and the weight of mythology
 permalink: /published-materials/gender-conflict-weight-of-mythology
 ---

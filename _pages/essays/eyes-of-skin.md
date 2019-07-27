@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: text
 title: the eyes of the skin
 permalink: /published-materials/eyes-of-the-skin
 ---
