@@ -1,13 +1,7 @@
 ---
-layout: text
-title: echo
-permalink: /published-materials/echo
+title: Echo
+author: Caroline Worthington
 ---
-
-**Echo**
-
-**By Caroline Worthington**
-
 Echo: the repetition of sound-by-sound waves; to repeat by echo or intimate words
 
 The layers of history in this church, St Mary’s Castlegate, stretch back over a thousand years, to the ninth century, when it was founded by Efrard, Grim and Aesa, three Anglo Saxons. Who they were, like the great majority of people who worshipped here over the centuries, is a mystery. But traces of a few survive, their names set in stone in its walls and floor, forming the fabric of the church.

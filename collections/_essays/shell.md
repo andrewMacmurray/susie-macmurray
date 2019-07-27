@@ -1,13 +1,7 @@
 ---
-layout: text
-title: shell
-permalink: /published-materials/shell
+title: Shell
+author: Dr Catherine Harper
 ---
-
-**Shell**
-
-**By Dr Catherine Harper**
-
 Susie MacMurray’s <em>Shell </em>installation manifests in Pallant House Gallery, Chichester, like some pulsing exotica, a heavily-textured wall-paper, darkly decorative, heavily luxurious, broodingly present, with more than a hint of the uncanny or the gothic. A remarkable undertaking by an artist of significance, this work’s life-span will be just one year, and then it will disappear, leaving no physical trace, but undoubtedly contributing in a much less tangible way to an already rich layering of narrative within this special space.
 
 Declan MacGonagle, then Director of the Irish Museum of Modern Art, Dublin, told me in 1990 that subjectively ‘good’ art (whatever that is) “speaks to your condition” (apparently, this is a Quaker concept and it has held true for me since then). Pallant House is a Grade 1 listed Queen Anne town house dating from 1712, and MacMurray’s mussel shell and velvet installation inhabits the stairwell, folds itself into the space, and hums almost imperceptibly. <em>Shell</em>‘s particular location here, its relationship to MacMurray’s previous works, its specific usage of certain key materials, and its exploration through those materials of a range of histories, successfully “speaks to my condition” as both practitioner and critical commentator.

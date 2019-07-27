@@ -1,13 +1,7 @@
 ---
-layout: text
-title: gender conflict and the weight of mythology
-permalink: /published-materials/gender-conflict-weight-of-mythology
+title: Gender Conflict, and the Weight of Mythology
+author: Natasha Howes
 ---
-
-**Gender, Conflict and the Weight of Mythology**
-
-**By Natasha Howes**
-
 Catalogue essay accompanying the Susie MacMurray Hinterland exhibition
 April / May 2016 Danese Corey Gallery, New York, NY USA
 

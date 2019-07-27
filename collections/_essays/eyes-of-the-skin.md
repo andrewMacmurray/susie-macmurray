@@ -1,13 +1,7 @@
 ---
-layout: text
-title: the eyes of the skin
-permalink: /published-materials/eyes-of-the-skin
+title: The Eyes Of The Skin
+author: Kathleen Soriano
 ---
-
-**The Eyes of the Skin**
-
-**By Kathleen Soriano**
-
 Catalogue essay for The Eyes of the Skin
 
 Agnew’s Gallery,  November 9th – December 2nd 2011

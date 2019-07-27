@@ -1,14 +1,7 @@
 ---
-layout: text
-title: promenade
-permalink: /published-materials/promenade
+title: Promenade
+author: Frances Guy
 ---
-
-
-**Promenade**
-
-**By Frances Guy**
-
 Catalogue essay for Promenade
 
 Kedleston Hall, July 19th –September 30th 2010

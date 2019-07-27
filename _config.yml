@@ -19,6 +19,9 @@ collections_dir: collections
 collections:
   categories:
     output: true
+  essays:
+    output: true
+    permalink: /published-materials/:name
   sculptures:
     output: true
     permalink: /images/:collection/:name
@@ -43,6 +46,11 @@ defaults:
       type: "categories"
     values:
       layout: "category"
+  - scope:
+      path: ""
+      type: "essays"
+    values:
+      layout: "essay"
   - scope:
       path: ""
       type: "drawings"

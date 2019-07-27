@@ -1,13 +1,7 @@
 ---
-layout: text
-title: sound relics
-permalink: /published-materials/sound-relics
+title: Sound Relics
+author: Annabel Lucas 
 ---
-
-**Sound Relics**
-
-**By Annabel Lucas**
-
 ‘Violin bow-hairs carry traces of their former use as accomplices in the intense, sublime and emotive human experience of music-making’1
 
 Empty, silent, sealed, the bandstand in the Castle grounds stands as an imposing monument to past performances hosted. Where do these transient events reside? Are they embedded in the edifice itself? Imprinted on the musical instruments that once played? Or buried deep within the memories of the audience who came?

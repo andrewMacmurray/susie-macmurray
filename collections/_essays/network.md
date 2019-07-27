@@ -1,14 +1,7 @@
 ---
-layout: text
-title: network
-permalink: /published-materials/network
+title: Network
+author: Dr Catherine Harper
 ---
-
-
-**Network**
-
-**By Dr Catherine Harper**
-
 Selvedge Feature, December 2008
 
 Having recently completed the installation of Shell at Pallant House, Chichester, Susie MacMurray has opened Echo at York St Mary’s, and it’s a good time for reflection…
