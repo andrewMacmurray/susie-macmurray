@@ -1,9 +1,11 @@
 <ul class="flex flex-wrap tc center mb4">
-  {% for category in site.data.categories %}
-
-    <a href="{{ site.url }}/images/{{ category.url }}">
-      <li class="f6 fw4 mt0 mb3 mb0-m mr3 mr5-ns {% if page.title == category.title %}{{ 'black' }}{% else %}{{ 'gray' }}{% endif %}">{{ category.title }}</li>
+  {% assign categories = site.categories | sort: 'order' %}
+  {% for category in categories %}
+    <a href="{{ category.url }}">
+      {% capture color %}
+        {% if page.title == category.title %} black {% else %} gray {% endif %}
+      {% endcapture %}
+      <li class="f6 fw4 mt0 mb3 mb0-m mr3 mr5-ns {{ color }}">{{ category.title }}</li>
     </a>
-
   {% endfor %}
 </ul>

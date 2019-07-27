@@ -1,22 +1,21 @@
 <nav class="mh3 mh4-m flex-m justify-between z-3">
-
-  <a logo class="no-underline transition" href="{{ site.url }}">
+  <a logo class="no-underline transition" href="/">
     <h1 class="tracked-mega ttu fw5 f4 f3-ns dib">Susie MacMurray</h1>
   </a>
 
   <ul desktop-menu class="dn tr dib-m">
     {% for title in site.data.nav-titles %}
 
-      {% if page.title == title.text %}
-        {% assign menuColor = " black" %}
-      {% elsif page.title == site.title %}
-        {% assign menuColor = " black" %}
+    {% capture menuColor %}
+      {% if page.title == title.text or page.title == site.title %}
+        black
       {% else %}
-        {% assign menuColor = " gray" %}
+        gray
       {% endif %}
+    {% endcapture %}
 
       <a menu-item class="{{ 'dib-m no-underline fw4 mh2-m transition' | append: menuColor }}"
-         href="{{ site.url }}{{ title.url }}">
+         href="{{ title.url }}">
         <p class="ma0 f5-m f6-ns mt2-m">{{title.text}}</p>
       </a>
 
@@ -25,19 +24,20 @@
   <ul mobile-menu class="dn dn-m mt0">
     {% for title in site.data.nav-titles %}
 
-      {% if page.title == title.text %}
-        {% assign menuColor = " black" %}
+    {% capture menuColor %}
+      {% if page.title == title.text or page.title == site.title %}
+        black
       {% else %}
-        {% assign menuColor = " gray" %}
+        gray
       {% endif %}
+    {% endcapture %}
 
       <a menu-item class="{{ 'dib-m no-underline fw4 mh2-m transition' | append: menuColor }}"
-         href="{{ site.url }}{{ title.url }}">
+         href="{{ title.url }}">
         <p class="ma0 mt3-m">{{title.text}}</p>
       </a>
 
     {% endfor %}
   </ul>
   {% include hamburger.html %}
-
 </nav>

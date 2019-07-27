@@ -1,0 +1,27 @@
+---
+layout: text
+title: published materials
+permalink: /published-materials/
+---
+
+<p class="b">Essays</p>
+
+<ul class="mb5">
+  {% for item in site.essays %}
+    <a href="{{ item.url }}">
+      <li class="f6 mb2">
+        <span>{{ item.title }} - </span><span class="silver">{{ item.author }}</span>
+    </a> 
+  {% endfor %}
+</ul>
+
+<p class="b">Online Catalogues</p>
+
+<ul class="mb5">
+  {% for item in site.data.online-catalogues %}
+    <a href="{{ item.link }}" target="_blank">
+      <li class="f6 mb2">
+        <span>{{ item.title }} - </span><span class="silver">{{ item.gallery }}</span>
+    </a> 
+  {% endfor %}
+</ul>

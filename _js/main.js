@@ -11,7 +11,6 @@ function randomiseSlides ($slider, $slides) {
   shuffle($slides).map((_, el) => $slider.append(el))
 }
 
-
 $(document).ready(function () {
   hamburgerListener()
 

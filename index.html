@@ -2,9 +2,11 @@
 layout: default
 title: Susie MacMurray
 ---
-
 <div slider-full-screen class="pointer">
   {% for slide in site.data.home-images %}
-    <div slide-full-screen {{ slide.shade }} class="absolute top-0 w-100 vh-100 center cover bg-center o-0 transition" style="background-image: url({{ site.url }}/img/{{ slide.url }})"></div>
+  <div
+    slide-full-screen {{ slide.shade }}
+    class="absolute top-0 w-100 vh-100 center cover bg-center o-0 transition"
+    style="background-image: url(/img/{{ slide.url }})"></div>
   {% endfor %}
 </div>

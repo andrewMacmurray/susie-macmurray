@@ -1,17 +1,8 @@
 ---
 layout: default
 ---
-
-{% for project in site.data[page.dataSource] %}
-  {% if project.title == page.title %}
-
-    {% assign currentProject = project  %}
-
-  {% endif %}
-{% endfor %}
-
 <div class="flex justify-between mh3 mh4-m pa1">
-  <a class="fw4 f6 f5-m gray" href="{{ site.url }}/images/{{ page.dataSource }}">back to {{ page.dataSource | split: '-' | join: ' ' }}</a>
+  <a class="fw4 f6 f5-m gray" href="/images/{{ page.collection }}">back to {{ page.collection | split: '-' | join: ' ' }}</a>
   <h2 class="fw4 f6 f5-m mh2-m mt0">{{ page.title }}</h2>
 </div>
 <div class="mw6 mw7-short center">
@@ -19,11 +10,20 @@ layout: default
     <div class="absolute w-25 w-50-ns h-75 top-0 left-0 z-3 pointer" id="previous"></div>
     <div class="absolute w-25 w-50-ns h-75 top-0 right-0 z-3 pointer" id="next"></div>
     <div class="slider o-0 z-4 relative transition">
-      {% for img in currentProject.images %}
+      {% for img in page.images %}
         <div>
-          {% assign imgTitle = currentProject.description | join: ' ' | strip_html %}
+          {% assign imgTitle = page.description | join: ' ' | strip_html %}
+          {% if img.external_directory %}
+            {% assign imgUrl = "/img/" | append: img.url %}
+          {% else %}
+            {% assign imgUrl = "/img/" | append: page.collection | append: "/" | append: img.url %}
+          {% endif %}
           <div class="aspect-ratio aspect-ratio--16x9-m aspect-ratio--4x3">
-            <div slide-img title="{% if img.caption %}{{ img.caption }}{% else %}{{ imgTitle }}{% endif %}" imgdata="{{ site.url}}/img/{{ img.url }}" class="aspect-ratio--object bg-center {% if img.contain == true %}{{ 'contain' }}{% else %}{{ 'cover' }}{% endif %}" style="background-image: url({{ site.url }}/img/{{ img.url }})"></div>
+            <div
+              slide-img
+              title="{% if img.caption %}{{ img.caption }}{% else %}{{ imgTitle }}{% endif %}"
+              imgdata="{{ imgUrl }}"
+              class="aspect-ratio--object bg-center {% if img.contain == true %}{{ 'contain' }}{% else %}{{ 'cover' }}{% endif %}" style="background-image: url({{ imgUrl }})"></div>
           </div>
         </div>
       {% endfor %}
@@ -31,7 +31,7 @@ layout: default
   </div>
 
   <div class="captions ph3 ph4-m ph0-l">
-      {% for img in currentProject.images %}
+      {% for img in page.images %}
 
         {% if img.caption != "" %}
 
@@ -56,14 +56,11 @@ layout: default
   </div>
 
   <div class="ph3 ph4-m ph0-l">
-    {% if currentProject.description %}
-
-      {% for x in currentProject.description %}
+    {% if page.description %}
+      {% for x in page.description %}
         <span class="f6 fw4">{{ x }}</span>
         </br>
       {% endfor %}
-
     {% endif %}
   </div>
-
 </div>

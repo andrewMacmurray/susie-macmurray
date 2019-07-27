@@ -1,5 +1,7 @@
-const imgGrid = $('[img-grid]')
+const imgGrid = $("[img-grid]");
 
 if (imgGrid) {
-  $(imgGrid).imagesLoaded({ background: '[bg-image]' }, () => $(imgGrid).removeClass('o-0'))
+  $(imgGrid).imagesLoaded({ background: "[bg-image]" }, () =>
+    $(imgGrid).removeClass("o-0")
+  );
 }
