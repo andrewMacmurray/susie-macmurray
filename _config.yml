@@ -15,6 +15,15 @@ exclude:
   - LICENSE
   - README.md
 
+jekyll_image_optim:
+  image_optim:
+    allow_lossy: true
+    jpegoptim:
+      allow_lossy: true
+      max_quality: 60
+    pngout: false
+    svgo: false 
+
 collections_dir: collections
 collections:
   categories:
