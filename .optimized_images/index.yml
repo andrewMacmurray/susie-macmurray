@@ -536,17 +536,17 @@
 "/img/site-specific-installations/halo/halo_06.jpg":
   :md5: 3204d0ca85c52f948093f6b43020e9b1
   :options: *1
-"/img/site-specific-installations/here-come-the-girls/here-come-the-girls_01.jpg":
-  :md5: e33a5738e73c49a5b048a6509c80b4d8
+? "/img/site-specific-installations/here-come-the-girls/here-come-the-girls_01.jpg"
+: :md5: e33a5738e73c49a5b048a6509c80b4d8
   :options: *1
-"/img/site-specific-installations/here-come-the-girls/here-come-the-girls_02.jpg":
-  :md5: f064c3d91b3f31921ac7083b757ccee8
+? "/img/site-specific-installations/here-come-the-girls/here-come-the-girls_02.jpg"
+: :md5: f064c3d91b3f31921ac7083b757ccee8
   :options: *1
-"/img/site-specific-installations/here-come-the-girls/here-come-the-girls_03.jpg":
-  :md5: 83a165bc547d36b1ca0b8ce1c45b9fe2
+? "/img/site-specific-installations/here-come-the-girls/here-come-the-girls_03.jpg"
+: :md5: 83a165bc547d36b1ca0b8ce1c45b9fe2
   :options: *1
-"/img/site-specific-installations/here-come-the-girls/here-come-the-girls_04.jpg":
-  :md5: c98c50eb9982b5c774dcdc40fbb231a7
+? "/img/site-specific-installations/here-come-the-girls/here-come-the-girls_04.jpg"
+: :md5: c98c50eb9982b5c774dcdc40fbb231a7
   :options: *1
 "/img/site-specific-installations/masquerade/masquerade_01.jpg":
   :md5: 1fc982f937a8e952083bd017b4b01c55

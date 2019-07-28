@@ -16,7 +16,7 @@ exclude:
   - README.md
 
 jekyll_image_optim:
-  cache_dir: optimized_images
+  cache_dir: .optimized_images
   image_optim:
     allow_lossy: true
     jpegoptim:
