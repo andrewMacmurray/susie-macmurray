@@ -16,13 +16,14 @@ exclude:
   - README.md
 
 jekyll_image_optim:
+  cache_dir: optimized_images
   image_optim:
     allow_lossy: true
     jpegoptim:
       allow_lossy: true
       max_quality: 60
     pngout: false
-    svgo: false 
+    svgo: false
 
 collections_dir: collections
 collections:

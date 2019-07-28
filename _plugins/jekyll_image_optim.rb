@@ -6,10 +6,9 @@ require "yaml"
 Jekyll::Hooks.register :site, :pre_render do |site|
 	# Load configuration options
 	config = YAML::load_file(File.join(site.source, "_config.yml"))
-	puts config
 	config = config["jekyll_image_optim"] || {}
 	image_optim_options = config["image_optim"] || {}
-	cache_relative_dir = config["cache_dir"] || ".jekyll-image-optim-cache"
+	cache_relative_dir = config["cache_dir"] || "optimized_images"
 	cache_dir = File.join(site.source, cache_relative_dir)
 	out_dir = File.join(cache_dir, "out")
 	index_yaml_path = File.join(cache_dir, "index.yml")

@@ -1,0 +1,658 @@
+---
+"/img/drawings/gauze-bandage/gauze-bandage_01.jpg":
+  :md5: 26c1ebc62cbd590b0da7cdab592043bf
+  :options: &1
+    allow_lossy: true
+    jpegoptim:
+      allow_lossy: true
+      max_quality: 60
+    pngout: false
+    svgo: false
+"/img/drawings/gauze-bandage/gauze-bandage_02.jpg":
+  :md5: 6683be0d69903e2a961572bb2842cb1e
+  :options: *1
+"/img/drawings/gauze-bandage/gauze-bandage_03.jpg":
+  :md5: 1e108b833cfda7a14b661999ea49ef33
+  :options: *1
+"/img/drawings/gauze-bandage/gauze-bandage_04.jpg":
+  :md5: 252b999f856c7372734aa2258e0e714a
+  :options: *1
+"/img/drawings/gauze-bandage/gauze-bandage_05.jpg":
+  :md5: 30c6d6bc538f3b70bdd7b75333117180
+  :options: *1
+"/img/drawings/gauze-bandage/gauze-bandage_06.jpg":
+  :md5: 3597fd442caaaf9f6ceb41aea260bc18
+  :options: *1
+"/img/drawings/gauze-bandage/gauze-bandage_07.jpg":
+  :md5: d56b43cc7a775f2fb43d7603afaf1445
+  :options: *1
+"/img/drawings/gauze-bandage/gauze-bandage_08.jpg":
+  :md5: 53442422447367f7f40a60a39f22aecd
+  :options: *1
+"/img/drawings/gauze-bandage/gauze-bandage_09.jpg":
+  :md5: f88d5c7e4e7e510193b6a2dc5bd8cadc
+  :options: *1
+"/img/drawings/gauze-bandage/gauze-bandage_10.jpg":
+  :md5: 5f2d30cfa7427416ad48bf077077f3c5
+  :options: *1
+"/img/drawings/gauze-bandage/gauze-bandage_11.jpg":
+  :md5: 94848a074f859f12569d42879735e36b
+  :options: *1
+"/img/drawings/hairnet/large-hairnet_01.jpg":
+  :md5: dfa422e82f9d0f80fd2b05ba35f7cffc
+  :options: *1
+"/img/drawings/hairnet/large-hairnet_02.jpg":
+  :md5: c7c1325cb0389516960be96e520a332d
+  :options: *1
+"/img/drawings/hairnet/medium-hairnet_01.jpg":
+  :md5: 7dea685b7fdcc4791853ad12091fd407
+  :options: *1
+"/img/drawings/hairnet/small-hairnet_02.jpg":
+  :md5: 9a07675a5da4d96bf162f5c592ac1576
+  :options: *1
+"/img/drawings/hairnet/stretched-hairnet_02.jpg":
+  :md5: 7a2910060192e3157c8ebff30a576821
+  :options: *1
+"/img/drawings/hairnet/tied-hairnets_01.jpg":
+  :md5: 90f12997aa563c7da20ee5d507a70f96
+  :options: *1
+"/img/drawings/hairnet/tied-hairnets_02.jpg":
+  :md5: c5963d46635bbe0399b4cd756f64a4f8
+  :options: *1
+"/img/drawings/hairnet/tied-hairnets_03.jpg":
+  :md5: 108b45dfb7fbcb04eb09d3e1f68f0d5b
+  :options: *1
+"/img/drawings/hairnet/two-hairnets_01.jpg":
+  :md5: f158965306088fd3ac074b202a05db7d
+  :options: *1
+"/img/drawings/net-curtain/net-curtain_01.jpg":
+  :md5: bbb0dde651e1acd19ff6c37d117aa266
+  :options: *1
+"/img/drawings/net-curtain/net-curtain_02.jpg":
+  :md5: e89865ccf3e2ccb2298d8b073ac4bb75
+  :options: *1
+"/img/drawings/pen-and-wash-drawings/boat-people-drawing_01.jpg":
+  :md5: 4b9461c5cefcd671719aae9e4b2b8c41
+  :options: *1
+"/img/drawings/pen-and-wash-drawings/heartbreak-drawing_01.jpg":
+  :md5: f0e5124913ecb776aabd217919880d03
+  :options: *1
+"/img/drawings/pen-and-wash-drawings/heartbreak-drawing_02.jpg":
+  :md5: c87ca0a0638c0190e9902fe7b996b42d
+  :options: *1
+"/img/drawings/trench-map/trench-map_01.jpg":
+  :md5: ce7db0b2a00fd2e5627472b959e05d63
+  :options: *1
+"/img/drawings/trench-map/trench-map_02.jpg":
+  :md5: c0d15a546a13b9e017881c84a634a2a5
+  :options: *1
+"/img/drawings/venice-lagoon/venice-lagoon_01.jpg":
+  :md5: 015510c7e81d69b7d670e1ab6ab14263
+  :options: *1
+"/img/drawings/venice-lagoon/venice-lagoon_02.jpg":
+  :md5: f04a6b0ed170eee11962544da7d49032
+  :options: *1
+"/img/drawings/venice-lagoon/venice-lagoon_03.jpg":
+  :md5: f0efb41e97526dc045b68acb03a64f16
+  :options: *1
+"/img/garment-sculptures/gladrags/gladrags_01.jpg":
+  :md5: 582813418e9edca4fc6b6a749201da92
+  :options: *1
+"/img/garment-sculptures/gladrags/gladrags_02.jpg":
+  :md5: 78e0de924ea9f9711fbebee44b94e7c0
+  :options: *1
+"/img/garment-sculptures/gladrags/gladrags_03.jpg":
+  :md5: 28c69897b48eac679dfdc9e97c5c4ec5
+  :options: *1
+"/img/garment-sculptures/gladrags/gladrags_04.jpg":
+  :md5: 8bfef64e6b2d5416cef4e9c217d72673
+  :options: *1
+"/img/garment-sculptures/icarus/icarus_01.jpg":
+  :md5: b6ca3cf4aab69bd13d3d1d9d252eee09
+  :options: *1
+"/img/garment-sculptures/icarus/icarus_02.jpg":
+  :md5: 9f8d9862e8415487bdafc247e0027435
+  :options: *1
+"/img/garment-sculptures/icarus/icarus_03.jpg":
+  :md5: 69a62350f06846177f05c229d5ccab86
+  :options: *1
+"/img/garment-sculptures/icarus/icarus_04.jpg":
+  :md5: 2fefa8a510a2b42aa44e1644c71783f5
+  :options: *1
+"/img/garment-sculptures/icarus/icarus_05.jpg":
+  :md5: b32e1ea8531c10ed8eb6c5ab7989a24c
+  :options: *1
+"/img/garment-sculptures/icon/icon_01.jpg":
+  :md5: 5e348fbf4bd54e80dc6a284054eed480
+  :options: *1
+"/img/garment-sculptures/icon/icon_02.jpg":
+  :md5: 466aeb90fb1d1e3e07c31e85fed18d66
+  :options: *1
+"/img/garment-sculptures/icon/icon_03.jpg":
+  :md5: 381f443fd0d57ac18e064fe7703d2505
+  :options: *1
+"/img/garment-sculptures/icon/icon_04.jpg":
+  :md5: 68077043dbdc6b44832fde7f5a942a2f
+  :options: *1
+"/img/garment-sculptures/icon/icon_05.jpg":
+  :md5: 5d79e7d07870519cf4cf98356bb8fd01
+  :options: *1
+"/img/garment-sculptures/medusa/hatchling_01.jpg":
+  :md5: 8e486ea224cfd2d666149fd74b02cff5
+  :options: *1
+"/img/garment-sculptures/medusa/medusa_01.jpg":
+  :md5: 691bf7ce6436523bd7ea4c8a99fe00da
+  :options: *1
+"/img/garment-sculptures/medusa/medusa_02.jpg":
+  :md5: 19f49fc145d0308bcabac952ff56e119
+  :options: *1
+"/img/garment-sculptures/medusa/medusa_03.jpg":
+  :md5: af446d444ac769a8257cffb72d3e3d5d
+  :options: *1
+"/img/garment-sculptures/medusa/medusa_04.jpg":
+  :md5: f78bf604c2848536950f6ae352af7e71
+  :options: *1
+"/img/garment-sculptures/medusa/medusa_05.jpg":
+  :md5: 6b382afdab6bb49c75ed95b7268d4d0b
+  :options: *1
+"/img/garment-sculptures/medusa/medusa_06.jpg":
+  :md5: b5cd0775790c7999f0644baeaea14b88
+  :options: *1
+"/img/garment-sculptures/medusa/medusa_07.jpg":
+  :md5: b89859f46b3e76f73ecfab60c322691e
+  :options: *1
+"/img/garment-sculptures/mixture-of-frailties/mixture-of-frailties_01.jpg":
+  :md5: 9458446b50bb8c561a046ab35d5203b3
+  :options: *1
+"/img/garment-sculptures/mixture-of-frailties/mixture-of-frailties_02.jpg":
+  :md5: 80337acef805692aaf203367513949c1
+  :options: *1
+"/img/garment-sculptures/mixture-of-frailties/mixture-of-frailties_03.jpg":
+  :md5: 383758aa5b9dd4f3005147e1fd3c0f77
+  :options: *1
+"/img/garment-sculptures/mixture-of-frailties/mixture-of-frailties_04.jpg":
+  :md5: a5b1807bc4c8174ca809fc6a9be59800
+  :options: *1
+"/img/garment-sculptures/widow/widow_01.jpg":
+  :md5: 4095747660792a4da7df56924ea0202f
+  :options: *1
+"/img/garment-sculptures/widow/widow_02.jpg":
+  :md5: a7f1b238482f0bc84cb97a96f9908870
+  :options: *1
+"/img/garment-sculptures/widow/widow_03.jpg":
+  :md5: 5ce292179f75cd0576a60623a175a072
+  :options: *1
+"/img/garment-sculptures/widow/widow_04.jpg":
+  :md5: 672992113e66586392c8cb91bb37424c
+  :options: *1
+"/img/garment-sculptures/widow/widow_05.jpg":
+  :md5: 34c686a9295e7018d8f77e14a3088dfa
+  :options: *1
+"/img/garment-sculptures/widow/widow_06.jpg":
+  :md5: 333da6aa7304514f7175ec3b3a14d9c6
+  :options: *1
+"/img/homepage/pods_01.jpg":
+  :md5: ceaf45ea93260346d982859ada1627a9
+  :options: *1
+"/img/homepage/siblings_01.jpg":
+  :md5: ffeb9e44840bf0cd8bd43af7c91fe95d
+  :options: *1
+"/img/homepage/strange-fruit_01.jpg":
+  :md5: 3a5582f1a5ef78c5a7c7f6189836b4f2
+  :options: *1
+"/img/sculptures/barbed-wire-and-velvet/boat-people_01.jpg":
+  :md5: 2917b39afebdad5c82a2e08361d28f74
+  :options: *1
+"/img/sculptures/barbed-wire-and-velvet/heartbreak_01.jpg":
+  :md5: 738b27a0f7e2d6f514455aa94e7528f6
+  :options: *1
+"/img/sculptures/barbed-wire-and-velvet/strange-fruit_01.jpg":
+  :md5: b0459024da0ca5a0359251f074b6fed0
+  :options: *1
+"/img/sculptures/barbed-wire-and-velvet/strange-fruit_02.jpg":
+  :md5: 196fb7138db66e02c178ab4437cb0916
+  :options: *1
+"/img/sculptures/barbed-wire-and-velvet/strange-fruit_03.jpg":
+  :md5: 9b7701cec6a760844f2f80b6948f7b4a
+  :options: *1
+"/img/sculptures/barbed-wire-and-velvet/strange-fruit_04.jpg":
+  :md5: 95fb600ddca601ad5b7d2731169129a7
+  :options: *1
+"/img/sculptures/barbed-wire-and-velvet/strange-fruit_05.jpg":
+  :md5: 6f23644414d1c460a400d42bdbe5e3a2
+  :options: *1
+"/img/sculptures/barbed-wire-and-velvet/strange-fruit_06.jpg":
+  :md5: a3036332128eeb14a7f19b75d87a482d
+  :options: *1
+"/img/sculptures/barbed-wire-and-velvet/strange-fruit_07.jpg":
+  :md5: 9e03672cf5de78463ea1a2033574a606
+  :options: *1
+"/img/sculptures/barbed-wire-and-velvet/strange-fruit_08.jpg":
+  :md5: 99633bc75f9c6240e94e4ac48fd77cef
+  :options: *1
+"/img/sculptures/barbed-wire/hold-the-line_01.jpg":
+  :md5: 3cd474c5f3be337774f29788a8fe0f3a
+  :options: *1
+"/img/sculptures/barbed-wire/hold-the-line_02.jpg":
+  :md5: 667a3d2ab98ab044748ab49907fe02ef
+  :options: *1
+"/img/sculptures/barbed-wire/hold-the-line_04.jpg":
+  :md5: 6a03f6e63cd6d846ffb5c1ecb941c478
+  :options: *1
+"/img/sculptures/barbed-wire/host_01.jpg":
+  :md5: 3a17055f20994cb32107fed2d2ef056e
+  :options: *1
+"/img/sculptures/barbed-wire/host_02.jpg":
+  :md5: b217c99d7de8668fef3167c7a00466ff
+  :options: *1
+"/img/sculptures/barbed-wire/host_03.jpg":
+  :md5: 70d711b517f2e341d6eff8633c06f359
+  :options: *1
+"/img/sculptures/barbed-wire/host_04.jpg":
+  :md5: 0e50b02eaa566abdafd341ab17e22de6
+  :options: *1
+"/img/sculptures/barbed-wire/host_05.jpg":
+  :md5: d95c312066f3d16be2140fa7b584f26a
+  :options: *1
+"/img/sculptures/barbed-wire/host_06.jpg":
+  :md5: 9b4d8e7461047d0ae8fe8b32b7b452c7
+  :options: *1
+"/img/sculptures/barbed-wire/host_07.jpg":
+  :md5: 204af7929a38d99f9882da86ed8c1966
+  :options: *1
+"/img/sculptures/barbed-wire/palisade_01.jpg":
+  :md5: 37d6fcbdb9c5dd3e5a05028048e45cb8
+  :options: *1
+"/img/sculptures/barbed-wire/palisade_02.jpg":
+  :md5: fe26a4c1412f7df986f086af8d90a6f0
+  :options: *1
+"/img/sculptures/barbed-wire/palisade_03.jpg":
+  :md5: 51e48097f85508e80a424000ab40d6d1
+  :options: *1
+"/img/sculptures/barbed-wire/palisade_04.jpg":
+  :md5: 1c666fceb8bd41148c7bb3ab1bd93c82
+  :options: *1
+"/img/sculptures/barbed-wire/snares-of-enemies_01.jpg":
+  :md5: fbda3fceb714d5ee60766eb271af7298
+  :options: *1
+"/img/sculptures/chainmail/anaconda_01.jpg":
+  :md5: 8a384ba5c839b46a1468e4b442d0f641
+  :options: *1
+"/img/sculptures/chainmail/anaconda_02.jpg":
+  :md5: a78fb77496c379338c6a5ef9071fdf12
+  :options: *1
+"/img/sculptures/chainmail/anaconda_03.jpg":
+  :md5: 525c458008762440803197a2f007676f
+  :options: *1
+"/img/sculptures/chainmail/anaconda_04.jpg":
+  :md5: 4f3ae040d7c77c95c57f534d462b6d0a
+  :options: *1
+"/img/sculptures/chainmail/eve_01.jpg":
+  :md5: 92c36cca6e19db4d89f60dd941db7fb9
+  :options: *1
+"/img/sculptures/chainmail/eve_02.jpg":
+  :md5: d2846e0af7aea204f503f443bf35c2c2
+  :options: *1
+"/img/sculptures/chainmail/rapture_01.jpg":
+  :md5: 970a1e755839f0d4d023626184ec25f8
+  :options: *1
+"/img/sculptures/fish-hooks/attachment_01.jpg":
+  :md5: f953e05a39c4ecfe9f47558c1db1d55b
+  :options: *1
+"/img/sculptures/fish-hooks/clutch_01.jpg":
+  :md5: d71b8005bea2f3e2bc5818b0a61bd3ef
+  :options: *1
+"/img/sculptures/fish-hooks/collar_01.jpg":
+  :md5: 227a6240377a5e4bbc8fe054baad35be
+  :options: *1
+"/img/sculptures/fish-hooks/collar_02.jpg":
+  :md5: cbc7a099b5691b3cbf7a3e691ee3054f
+  :options: *1
+"/img/sculptures/fish-hooks/collar_03.jpg":
+  :md5: 2c117b17e426e9dbf56a7b66dedd93ee
+  :options: *1
+"/img/sculptures/fish-hooks/collar_04.jpg":
+  :md5: d8b3fe88a8d36d9c221e68d8eabc6412
+  :options: *1
+"/img/sculptures/fish-hooks/siblings_01.jpg":
+  :md5: 2db8c221e0159213468ba3710cb57d11
+  :options: *1
+"/img/sculptures/fish-hooks/siblings_02.jpg":
+  :md5: 880198bd45ebf881e6186f4ead16d339
+  :options: *1
+"/img/sculptures/fish-hooks/siblings_03.jpg":
+  :md5: 58b2e352d8bad511057aa581ad7452c8
+  :options: *1
+"/img/sculptures/fish-hooks/wise-old-woman_01.jpg":
+  :md5: 0a3c89cb627a45e104d33632705709b5
+  :options: *1
+"/img/sculptures/host/host_01.jpg":
+  :md5: 117dbd9f9881775a2d5297d6e71141cb
+  :options: *1
+"/img/sculptures/host/host_02.jpg":
+  :md5: 29a0e3a74f6e559f4862aae370483c49
+  :options: *1
+"/img/sculptures/host/host_03.jpg":
+  :md5: ea949f51dbf66e4cad2e7bdb2aded7af
+  :options: *1
+"/img/sculptures/host/host_04.jpg":
+  :md5: 7bb670d44e07b68f034504c4618f07c2
+  :options: *1
+"/img/sculptures/host/host_05.jpg":
+  :md5: 83b9f7e5961f2907fe4119bd756169cb
+  :options: *1
+"/img/sculptures/host/host_06.jpg":
+  :md5: 9d6b921a22aa8fb239c79153a00e8643
+  :options: *1
+"/img/sculptures/host/host_07.jpg":
+  :md5: 4d069ba06484f7113f57d0c6e48f35bf
+  :options: *1
+"/img/sculptures/orphan/orphan_01.jpg":
+  :md5: 5570236a0b71ba19f370e9253227026f
+  :options: *1
+"/img/sculptures/orphan/orphan_02.jpg":
+  :md5: 045f2f27931967d40a477a1addac674a
+  :options: *1
+"/img/sculptures/orphan/orphan_03.jpg":
+  :md5: 3e034b9867549fe2a96cb7a94a4dae39
+  :options: *1
+"/img/sculptures/palisade/palisade_01.jpg":
+  :md5: 72298489002ec15b733c9ebb25e8d75a
+  :options: *1
+"/img/sculptures/palisade/palisade_02.jpg":
+  :md5: 97c32eef46987faa10d167aa257749fe
+  :options: *1
+"/img/sculptures/palisade/palisade_03.jpg":
+  :md5: 46779f14a1e21af7cbb995def3638d9d
+  :options: *1
+"/img/sculptures/palisade/palisade_04.jpg":
+  :md5: 9b113ccffae21cea562d25136da0566b
+  :options: *1
+"/img/sculptures/palisade/palisade_05.jpg":
+  :md5: f4a31b2ae0f9859ab34ea0be817d2e86
+  :options: *1
+"/img/sculptures/palisade/palisade_06.jpg":
+  :md5: cd1e378b954cda3569f6f1b5d7957f40
+  :options: *1
+"/img/sculptures/pandora/pandora_01.jpg":
+  :md5: 14965cea594cf079e23a519a97cf9736
+  :options: *1
+"/img/sculptures/pandora/pandora_02.jpg":
+  :md5: 614fc347b25c85d7f1644598b0fb65c5
+  :options: *1
+"/img/sculptures/pandora/pandora_03.jpg":
+  :md5: fb6f66224ad66528ce6983b0095f23c7
+  :options: *1
+"/img/sculptures/pandora/pandora_04.jpg":
+  :md5: d1920a39681b0c9c71acc59e09f9f6de
+  :options: *1
+"/img/sculptures/pandora/pandora_05.jpg":
+  :md5: 004a3d6651fc5be0efdf74fad6443fb6
+  :options: *1
+"/img/sculptures/pandora/pandora_06.jpg":
+  :md5: 152a6b086265d891c255d2e8005e68be
+  :options: *1
+"/img/sculptures/pandora/pandora_07.jpg":
+  :md5: 56232e8cdcd515c3c13315717248ce84
+  :options: *1
+"/img/sculptures/pandora/pandora_08.jpg":
+  :md5: 526a0a446ab6d5a7edbc16eff72160fb
+  :options: *1
+"/img/sculptures/pandora/pandora_09.jpg":
+  :md5: e5a6b7d9836f801335e7ead8216bdd2c
+  :options: *1
+"/img/sculptures/requiem/requiem_01.jpg":
+  :md5: 8eb18408a069a339e9f164b5b0e354e3
+  :options: *1
+"/img/sculptures/requiem/requiem_02.jpg":
+  :md5: f02aeaae43fb5409719e5ef2a77fe41d
+  :options: *1
+"/img/sculptures/requiem/requiem_03.jpg":
+  :md5: b46679db481cc439bf91497988e88a5e
+  :options: *1
+"/img/sculptures/sirens/siren_01.jpg":
+  :md5: 14cba4bfdc971590a2fb1fc08a518185
+  :options: *1
+"/img/sculptures/sirens/siren_02.jpg":
+  :md5: 5f0d9b34db31d70b86f331d6d3f4249b
+  :options: *1
+"/img/sculptures/sirens/siren_03.jpg":
+  :md5: 8a2d8e7bbf292bb1b4b074e541e0ddcd
+  :options: *1
+"/img/sculptures/sirens/siren_04.jpg":
+  :md5: 2efd38819429b540c9cc84bad54f1297
+  :options: *1
+"/img/sculptures/sirens/siren_05.jpg":
+  :md5: f4639677db5ed3ec821f3ffae4cbed34
+  :options: *1
+"/img/sculptures/sirens/siren_06.jpg":
+  :md5: fccd49f0e1438711ac80f13817c94868
+  :options: *1
+"/img/sculptures/sirens/siren_07.jpg":
+  :md5: e0d749d432a8bf20cb503e0545ad9de0
+  :options: *1
+"/img/sculptures/wax-and-pins/harem_01.jpg":
+  :md5: 6214a7344a255511c1128ab128671b7d
+  :options: *1
+"/img/sculptures/wax-and-pins/nest_01.jpg":
+  :md5: aba1daf3534be9be24fd5cf7e360e0e7
+  :options: *1
+"/img/sculptures/wax-and-pins/swarm_01.jpg":
+  :md5: bc921e0538b6de428a8892d2826cba01
+  :options: *1
+"/img/sculptures/wax-pods/anima_01.jpg":
+  :md5: ef7bb829225db14038f62cb8d2c6db20
+  :options: *1
+"/img/sculptures/wax-pods/animus_01.jpg":
+  :md5: 42253e59a7796c0d80f740cc0e56da52
+  :options: *1
+"/img/sculptures/wax-pods/eve-wall_01.jpg":
+  :md5: 97bd54c068e2c01566df6d56cd9aea9d
+  :options: *1
+"/img/sculptures/wax-pods/pods_01.jpg":
+  :md5: 9f9fd03397003db7bdd9958b6280aa43
+  :options: *1
+"/img/sculptures/wax-pods/untitled-wax_01.jpg":
+  :md5: a660a28cd7ac9523201f9b12c7aa6139
+  :options: *1
+"/img/sculptures/wax-pods/untitled-wax_02.jpg":
+  :md5: a72b10c47ea80859666bb18f72a695b7
+  :options: *1
+"/img/sculptures/wax-pods/untitled-wax_03.jpg":
+  :md5: 82b2f527b0bf16170a1b0ed9f4d26d06
+  :options: *1
+"/img/sculptures/wax-pods/untitled-wax_04.jpg":
+  :md5: ab09fd53b8087bd0add5a4dae75fb15b
+  :options: *1
+"/img/site-specific-installations/cloud/cloud_01.jpg":
+  :md5: 7dc9ce991bd9ec4250445bd4a7f1a9a8
+  :options: *1
+"/img/site-specific-installations/cloud/cloud_02.jpg":
+  :md5: c06d036024f945c13a585b9ccfb5dfcc
+  :options: *1
+"/img/site-specific-installations/cloud/cloud_03.jpg":
+  :md5: 8dfc2536bbe9e739f75b52404be21537
+  :options: *1
+"/img/site-specific-installations/cloud/cloud_04.jpg":
+  :md5: 0e5902aea2d683dfe0dc3ee4fd8f884a
+  :options: *1
+"/img/site-specific-installations/cloud/cloud_05.jpg":
+  :md5: 626960e8baa81789408977fbb2e86243
+  :options: *1
+"/img/site-specific-installations/cloud/cloud_06.jpg":
+  :md5: a940cba7474f46d42fdf4bcb201da945
+  :options: *1
+"/img/site-specific-installations/cloud/cloud_07.jpg":
+  :md5: 1e443ded0a726163940c7f3dc82eb2d3
+  :options: *1
+"/img/site-specific-installations/doubt/doubt_01.jpg":
+  :md5: 2b7ad070a3a7b713fdf1d4d40345d859
+  :options: *1
+"/img/site-specific-installations/doubt/doubt_02.jpg":
+  :md5: 179408ca8cdaf61415dbdfb861c6dd96
+  :options: *1
+"/img/site-specific-installations/doubt/doubt_03.jpg":
+  :md5: 99fab4c6029a4dc2e315cfa1754748be
+  :options: *1
+"/img/site-specific-installations/doubt/doubt_04.jpg":
+  :md5: e7e7f2eaeef4938556076e78989b5d04
+  :options: *1
+"/img/site-specific-installations/doubt/doubt_05.jpg":
+  :md5: 91cf7a0cb0032091eeab07aced023f2b
+  :options: *1
+"/img/site-specific-installations/doubt/doubt_06.jpg":
+  :md5: 58c78335fced1548606abc0d765d9a3b
+  :options: *1
+"/img/site-specific-installations/doubt/doubt_07.jpg":
+  :md5: f2565f7e4ed7d42d4127282621882637
+  :options: *1
+"/img/site-specific-installations/echo/echo_01.jpg":
+  :md5: f05c8cacb011e73b15f55d6a8646eeae
+  :options: *1
+"/img/site-specific-installations/echo/echo_02.jpg":
+  :md5: ba7cbbc71eed49c5534ecc2dfba38b10
+  :options: *1
+"/img/site-specific-installations/echo/echo_03.jpg":
+  :md5: cdc7e45863d639931888d63c208f03dd
+  :options: *1
+"/img/site-specific-installations/echo/echo_04.jpg":
+  :md5: ee557a146bac86bf9413274bc208cb05
+  :options: *1
+"/img/site-specific-installations/halo/halo_01.jpg":
+  :md5: d2d1a25dc31ce858f849750a913768e6
+  :options: *1
+"/img/site-specific-installations/halo/halo_02.jpg":
+  :md5: 1d2d148a071e185c60200feca4b66f34
+  :options: *1
+"/img/site-specific-installations/halo/halo_03.jpg":
+  :md5: 5c40c915d6d24543cb96d2a57fc2f2a4
+  :options: *1
+"/img/site-specific-installations/halo/halo_04.jpg":
+  :md5: cd878b8abcb9a804ec012a96cd2dc6d7
+  :options: *1
+"/img/site-specific-installations/halo/halo_05.jpg":
+  :md5: d5555ec297ff0966a009952580db9f80
+  :options: *1
+"/img/site-specific-installations/halo/halo_06.jpg":
+  :md5: 3204d0ca85c52f948093f6b43020e9b1
+  :options: *1
+"/img/site-specific-installations/here-come-the-girls/here-come-the-girls_01.jpg":
+  :md5: e33a5738e73c49a5b048a6509c80b4d8
+  :options: *1
+"/img/site-specific-installations/here-come-the-girls/here-come-the-girls_02.jpg":
+  :md5: f064c3d91b3f31921ac7083b757ccee8
+  :options: *1
+"/img/site-specific-installations/here-come-the-girls/here-come-the-girls_03.jpg":
+  :md5: 83a165bc547d36b1ca0b8ce1c45b9fe2
+  :options: *1
+"/img/site-specific-installations/here-come-the-girls/here-come-the-girls_04.jpg":
+  :md5: c98c50eb9982b5c774dcdc40fbb231a7
+  :options: *1
+"/img/site-specific-installations/masquerade/masquerade_01.jpg":
+  :md5: 1fc982f937a8e952083bd017b4b01c55
+  :options: *1
+"/img/site-specific-installations/masquerade/masquerade_02.jpg":
+  :md5: 22c57a14ad8a85c457a835355ed12073
+  :options: *1
+"/img/site-specific-installations/masquerade/masquerade_03.jpg":
+  :md5: ca8eeefa28bbbc284b9e3cdc353b3bb3
+  :options: *1
+"/img/site-specific-installations/masquerade/masquerade_04.jpg":
+  :md5: b1d1052e0e535e94a71f8bfac58126f9
+  :options: *1
+"/img/site-specific-installations/masquerade/masquerade_05.jpg":
+  :md5: 940d9262447984e8ace6091109c492c9
+  :options: *1
+"/img/site-specific-installations/masquerade/masquerade_06.jpg":
+  :md5: f78bf604c2848536950f6ae352af7e71
+  :options: *1
+"/img/site-specific-installations/promenade/promenade_01.jpg":
+  :md5: e0bb7c39937b959fb70b572b756daf65
+  :options: *1
+"/img/site-specific-installations/promenade/promenade_02.jpg":
+  :md5: 6cfb565f8528e4993cec418725b1c70a
+  :options: *1
+"/img/site-specific-installations/promenade/promenade_03.jpg":
+  :md5: c0e09389219090f219b8e11c9bac1b74
+  :options: *1
+"/img/site-specific-installations/promenade/promenade_04.jpg":
+  :md5: a31d7955fe3a2016ce4e73ff2af5a8e5
+  :options: *1
+"/img/site-specific-installations/promenade/promenade_05.jpg":
+  :md5: 45b055ad897fb5fd45b9bd8fdd4ffcd9
+  :options: *1
+"/img/site-specific-installations/promenade/promenade_06.jpg":
+  :md5: 263dcdbf36dd01dbf73ef4094ab8cb87
+  :options: *1
+"/img/site-specific-installations/resonance/resonance_01.jpg":
+  :md5: 3433f3f9f1d5bb15da1c40b3002cea7e
+  :options: *1
+"/img/site-specific-installations/resonance/resonance_02.jpg":
+  :md5: 51fd4e37cd42d10058bec52ff90010ef
+  :options: *1
+"/img/site-specific-installations/resonance/resonance_03.jpg":
+  :md5: 36e0c67ceed9aabbb1d516bea7261d64
+  :options: *1
+"/img/site-specific-installations/resonance/resonance_04.jpg":
+  :md5: c7e65da519a3d708d864d2d57a35bef3
+  :options: *1
+"/img/site-specific-installations/shell/shell_01.jpg":
+  :md5: be3780bf3271c0d5973b3ffab5f40354
+  :options: *1
+"/img/site-specific-installations/shell/shell_02.jpg":
+  :md5: cb2e606643bd2dcff8c74eb08eccc7f7
+  :options: *1
+"/img/site-specific-installations/shell/shell_03.jpg":
+  :md5: 7713db91fa46c320c541c987a6ba0919
+  :options: *1
+"/img/site-specific-installations/shell/shell_04.jpg":
+  :md5: bbba8823634a54e1c65809130467b314
+  :options: *1
+"/img/site-specific-installations/shell/shell_05.jpg":
+  :md5: ca6c4b32816d3c51720d97e8ce455352
+  :options: *1
+"/img/site-specific-installations/spectacle/spectacle_01.jpg":
+  :md5: 8c9c33c3213c3254d036ae2203511900
+  :options: *1
+"/img/site-specific-installations/spectacle/spectacle_02.jpg":
+  :md5: 220fb41438f9a3422806c2ea350b7a5f
+  :options: *1
+"/img/site-specific-installations/stratum/stratum_01.jpg":
+  :md5: d2e6f13851fc292bf35b4904c5e3c234
+  :options: *1
+"/img/site-specific-installations/stratum/stratum_02.jpg":
+  :md5: 3e620b17c559b03ea08cfbc83df7b818
+  :options: *1
+"/img/site-specific-installations/stratum/stratum_03.jpg":
+  :md5: 97c09e40d74a8f1e287019ceeb00e06c
+  :options: *1
+"/img/site-specific-installations/stratum/stratum_04.jpg":
+  :md5: 240d3c2c9d974a900c2e27a01d7e1432
+  :options: *1
+"/img/site-specific-installations/stratum/stratum_05.jpg":
+  :md5: 2f2cb71932c88138da1b2c9fb02a131b
+  :options: *1
+"/img/site-specific-installations/stratum/stratum_06.jpg":
+  :md5: b7e78bbdf1acfe70b8e59ddb93f6165a
+  :options: *1
+"/img/site-specific-installations/stratum/stratum_07.jpg":
+  :md5: f3330c33d04ccc5230e5d3cdcc94d420
+  :options: *1
+"/img/small-works/field/field_01.jpg":
+  :md5: 857b250427a66ea910f9b8169c450b77
+  :options: *1
+"/img/small-works/field/field_02.jpg":
+  :md5: e45c18bdf100897b8fd830eb82597044
+  :options: *1
+"/img/small-works/little-feast/little-feast_01.jpg":
+  :md5: 0de6659cc7f18de83b221125ac9ba0bd
+  :options: *1
+"/img/small-works/little-feast/little-feast_02.jpg":
+  :md5: cebff0325fb2d511c8f36a1b040611b9
+  :options: *1
+"/img/small-works/muster/muster_01.jpg":
+  :md5: 1dc16dc03d5b1d7707e963115a9250b6
+  :options: *1
+"/img/small-works/silver-shell/silver-shell_01.jpg":
+  :md5: 5db8d104ff31a6a9be0a5598e92e20d1
+  :options: *1
