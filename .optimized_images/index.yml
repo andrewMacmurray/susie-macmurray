@@ -656,3 +656,27 @@
 "/img/small-works/silver-shell/silver-shell_01.jpg":
   :md5: 5db8d104ff31a6a9be0a5598e92e20d1
   :options: *1
+"/img/site-specific-installations/gathering/gathering_01.jpg":
+  :md5: 4570c123ea11d346d691f12e1fd42585
+  :options: &2
+    allow_lossy: true
+    jpegoptim:
+      allow_lossy: true
+      max_quality: 60
+    pngout: false
+    svgo: false
+"/img/site-specific-installations/gathering/gathering_02.jpg":
+  :md5: f7789f8f20acf787aed439ee2022da87
+  :options: *2
+"/img/site-specific-installations/gathering/gathering_03.jpg":
+  :md5: 0b10d02d720c7627603ac6a77ff07396
+  :options: *2
+"/img/site-specific-installations/gathering/gathering_04.jpg":
+  :md5: 57064bdfc779c0ce059cfcafdb77a5eb
+  :options: *2
+"/img/site-specific-installations/gathering/gathering_05.jpg":
+  :md5: a9735db5c2fb23bb55d8c93f87c7b061
+  :options: *2
+"/img/site-specific-installations/gathering/gathering_06.jpg":
+  :md5: 70f640c2867239b691006505683d8f25
+  :options: *2
