@@ -2,6 +2,8 @@ title: Susie MacMurray
 description: >
   Susie MacMurray is a British artist whose work includes drawing, sculpture and architectural installations.
 url: "https://www.susie-macmurray.co.uk"
+domain: "www.susie-macmurray.co.uk"
+cache_url: "https://aqbrdfooen.cloudimg.io"
 kramdown:
   input: GFM
 include: ["_pages"]

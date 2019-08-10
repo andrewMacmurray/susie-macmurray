@@ -22,8 +22,8 @@ layout: default
             <div
               slide-img
               title="{% if img.caption %}{{ img.caption }}{% else %}{{ imgTitle }}{% endif %}"
-              imgdata="{{ imgUrl }}"
-              class="aspect-ratio--object bg-center {% if img.contain == true %}{{ 'contain' }}{% else %}{{ 'cover' }}{% endif %}" style="background-image: url({{ imgUrl }})"></div>
+              imgdata="{{ imgUrl | cache_resize: 100 }}"
+              class="aspect-ratio--object bg-center {% if img.contain == true %}{{ 'contain' }}{% else %}{{ 'cover' }}{% endif %}" style="background-image: url({{ imgUrl | cache_resize: 560 }})"></div>
           </div>
         </div>
       {% endfor %}

@@ -7,7 +7,7 @@
      <div
        bg-image
        class="bg-center cover aspect-ratio--object"
-       style="background-image: url({{ item.thumbnail }})"></div>
+       style="background-image: url({{ item.thumbnail | cache_resize: 400 }})"></div>
      </div>
      <p class="fw4">{{ item.title }}</p>
    </div>
