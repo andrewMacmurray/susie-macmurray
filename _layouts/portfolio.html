@@ -62,5 +62,14 @@ layout: default
         </br>
       {% endfor %}
     {% endif %}
+    {% if page.videos %}
+      <div class="mt4">
+        <p class="mb2">Videos</p>
+        {% for video in page.videos %}
+          <a class="f6 b" href="{{ video.link }}" target="_blank">{{ video.title }}</a>
+          </br>
+        {% endfor %}
+      </div>
+    {% endif %}
   </div>
 </div>
