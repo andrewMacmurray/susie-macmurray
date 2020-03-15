@@ -1,4 +1,3 @@
-require 'pp'
 module Jekyll
   module CacheResizeFilter
     def cache_resize(link, width)

@@ -536,17 +536,17 @@
 "/img/site-specific-installations/halo/halo_06.jpg":
   :md5: 3204d0ca85c52f948093f6b43020e9b1
   :options: *1
-? "/img/site-specific-installations/here-come-the-girls/here-come-the-girls_01.jpg"
-: :md5: e33a5738e73c49a5b048a6509c80b4d8
+"/img/site-specific-installations/here-come-the-girls/here-come-the-girls_01.jpg":
+  :md5: e33a5738e73c49a5b048a6509c80b4d8
   :options: *1
-? "/img/site-specific-installations/here-come-the-girls/here-come-the-girls_02.jpg"
-: :md5: f064c3d91b3f31921ac7083b757ccee8
+"/img/site-specific-installations/here-come-the-girls/here-come-the-girls_02.jpg":
+  :md5: f064c3d91b3f31921ac7083b757ccee8
   :options: *1
-? "/img/site-specific-installations/here-come-the-girls/here-come-the-girls_03.jpg"
-: :md5: 83a165bc547d36b1ca0b8ce1c45b9fe2
+"/img/site-specific-installations/here-come-the-girls/here-come-the-girls_03.jpg":
+  :md5: 83a165bc547d36b1ca0b8ce1c45b9fe2
   :options: *1
-? "/img/site-specific-installations/here-come-the-girls/here-come-the-girls_04.jpg"
-: :md5: c98c50eb9982b5c774dcdc40fbb231a7
+"/img/site-specific-installations/here-come-the-girls/here-come-the-girls_04.jpg":
+  :md5: c98c50eb9982b5c774dcdc40fbb231a7
   :options: *1
 "/img/site-specific-installations/masquerade/masquerade_01.jpg":
   :md5: 1fc982f937a8e952083bd017b4b01c55
@@ -680,3 +680,129 @@
 "/img/site-specific-installations/gathering/gathering_06.jpg":
   :md5: 70f640c2867239b691006505683d8f25
   :options: *2
+"/img/drawings/studies/ink-and-watercolor_01.jpeg":
+  :md5: c4a4e498ed8c53570c77044a7bc7dcee
+  :options:
+    allow_lossy: true
+    jpegoptim:
+      allow_lossy: true
+      max_quality: 60
+    pngout: false
+    svgo: false
+"/img/drawings/studies/ink-and-water_01.jpeg":
+  :md5: c4a4e498ed8c53570c77044a7bc7dcee
+  :options:
+    allow_lossy: true
+    jpegoptim:
+      allow_lossy: true
+      max_quality: 60
+    pngout: false
+    svgo: false
+"/img/drawings/studies/ink-and-watercolor_01.jpg":
+  :md5: 191594776d0e0b754f62eacd85824bb7
+  :options:
+    allow_lossy: true
+    jpegoptim:
+      allow_lossy: true
+      max_quality: 60
+    pngout: false
+    svgo: false
+"/img/drawings/studies/chinese-whispers.jpg":
+  :md5: 8290ab45b88ad4fdab049f70c3029c74
+  :options:
+    allow_lossy: true
+    jpegoptim:
+      allow_lossy: true
+      max_quality: 60
+    pngout: false
+    svgo: false
+"/img/drawings/studies/chinese-whispers_01.jpg":
+  :md5: 8290ab45b88ad4fdab049f70c3029c74
+  :options:
+    allow_lossy: true
+    jpegoptim:
+      allow_lossy: true
+      max_quality: 60
+    pngout: false
+    svgo: false
+"/img/drawings/studies/IMG_0300.jpeg":
+  :md5: e472d0fb2805a4d2a49755cee6396f33
+  :options:
+    allow_lossy: true
+    jpegoptim:
+      allow_lossy: true
+      max_quality: 60
+    pngout: false
+    svgo: false
+"/img/drawings/studies/ink-and-watercolor_02.jpeg":
+  :md5: e472d0fb2805a4d2a49755cee6396f33
+  :options:
+    allow_lossy: true
+    jpegoptim:
+      allow_lossy: true
+      max_quality: 60
+    pngout: false
+    svgo: false
+"/img/drawings/studies/ink-and-watercolor_02.jpg":
+  :md5: e472d0fb2805a4d2a49755cee6396f33
+  :options:
+    allow_lossy: true
+    jpegoptim:
+      allow_lossy: true
+      max_quality: 60
+    pngout: false
+    svgo: false
+"/img/drawings/studies/ink-and-water_01.jpg":
+  :md5: c4a4e498ed8c53570c77044a7bc7dcee
+  :options:
+    allow_lossy: true
+    jpegoptim:
+      allow_lossy: true
+      max_quality: 60
+    pngout: false
+    svgo: false
+"/img/sculptures/familiar/familiar_01.jpg":
+  :md5: e9d0587979a31b1982fc116ea7714024
+  :options:
+    allow_lossy: true
+    jpegoptim:
+      allow_lossy: true
+      max_quality: 60
+    pngout: false
+    svgo: false
+"/img/sculptures/belly/belly.jpg":
+  :md5: 61f628e5a71d4acf7075a461542e7913
+  :options:
+    allow_lossy: true
+    jpegoptim:
+      allow_lossy: true
+      max_quality: 60
+    pngout: false
+    svgo: false
+"/img/sculptures/belly/belly_01.jpg":
+  :md5: 61f628e5a71d4acf7075a461542e7913
+  :options:
+    allow_lossy: true
+    jpegoptim:
+      allow_lossy: true
+      max_quality: 60
+    pngout: false
+    svgo: false
+"/img/sculptures/sisters/sisters.jpg":
+  :md5: b2561b0cd02dd796325e4777bc339863
+  :options:
+    allow_lossy: true
+    jpegoptim:
+      allow_lossy: true
+      max_quality: 60
+    pngout: false
+    svgo: false
+"/img/sculptures/sisters/sisters_01.jpg":
+  :md5: b2561b0cd02dd796325e4777bc339863
+  :options:
+    allow_lossy: true
+    jpegoptim:
+      allow_lossy: true
+      max_quality: 60
+    pngout: false
+    svgo: false

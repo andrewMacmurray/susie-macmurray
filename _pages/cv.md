@@ -14,6 +14,10 @@ permalink: /cv
 
 **Selected Solo and Group Exhibitions**
 
+**2020**
+
+Fabric: Touch and Identity - Compton Verney, Warwickshire, UK
+
 **2019**
 
 Gathering - site specific commission - Tatton Park Mansion, Cheshire, UK
