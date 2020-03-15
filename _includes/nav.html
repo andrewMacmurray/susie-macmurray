@@ -6,15 +6,15 @@
   <ul desktop-menu class="dn tr dib-m">
     {% for title in site.data.nav-titles %}
 
-    {% capture menuColor %}
+    {% capture menuClasses %}
       {% if page.title == title.text or page.title == site.title %}
-        black
+        black underline
       {% else %}
         gray
       {% endif %}
     {% endcapture %}
 
-      <a menu-item class="{{ 'dib-m no-underline fw4 mh2-m transition' | append: menuColor }}"
+      <a menu-item class="{{ 'dib-m fw4 mh2-m transition' | append: menuClasses }}"
          href="{{ title.url }}">
         <p class="ma0 f5-m f6-ns mt2-m">{{title.text}}</p>
       </a>
@@ -24,15 +24,15 @@
   <ul mobile-menu class="dn dn-m mt0">
     {% for title in site.data.nav-titles %}
 
-    {% capture menuColor %}
+    {% capture menuClasses %}
       {% if page.title == title.text or page.title == site.title %}
-        black
+        black underline
       {% else %}
         gray
       {% endif %}
     {% endcapture %}
 
-      <a menu-item class="{{ 'dib-m no-underline fw4 mh2-m transition' | append: menuColor }}"
+      <a menu-item class="{{ 'dib-m fw4 mh2-m transition' | append: menuClasses }}"
          href="{{ title.url }}">
         <p class="ma0 mt3-m">{{title.text}}</p>
       </a>
